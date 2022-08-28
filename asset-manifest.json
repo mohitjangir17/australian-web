@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/australian-web/static/css/main.51933a9a.css",
-    "main.js": "/australian-web/static/js/main.70b1534c.js",
+    "main.css": "/australian-web/static/css/main.2c4813ae.css",
+    "main.js": "/australian-web/static/js/main.b248d482.js",
     "static/js/787.83253f8e.chunk.js": "/australian-web/static/js/787.83253f8e.chunk.js",
     "static/media/books-figure-section.jpg": "/australian-web/static/media/books-figure-section.a1164922a656218885b3.jpg",
     "static/media/open-book.jpg": "/australian-web/static/media/open-book.c2ef451923b256f5208a.jpg",
@@ -11,12 +11,12 @@
     "static/media/facebook logo.png": "/australian-web/static/media/facebook logo.daa22d4c684d22007a87.png",
     "static/media/instagram.svg": "/australian-web/static/media/instagram.787b1447c6450bcdbb2fdcba9c894a7f.svg",
     "index.html": "/australian-web/index.html",
-    "main.51933a9a.css.map": "/australian-web/static/css/main.51933a9a.css.map",
-    "main.70b1534c.js.map": "/australian-web/static/js/main.70b1534c.js.map",
+    "main.2c4813ae.css.map": "/australian-web/static/css/main.2c4813ae.css.map",
+    "main.b248d482.js.map": "/australian-web/static/js/main.b248d482.js.map",
     "787.83253f8e.chunk.js.map": "/australian-web/static/js/787.83253f8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51933a9a.css",
-    "static/js/main.70b1534c.js"
+    "static/css/main.2c4813ae.css",
+    "static/js/main.b248d482.js"
   ]
 }
