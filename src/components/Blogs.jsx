@@ -22,6 +22,22 @@ function Blogs() {
             </div>
           </a>
         </div>
+
+        <div className="blogsList">
+          <a href="">
+            <img src={codingguy} alt="blogImg" />
+            <h3>Build your Dream Software & Engineering Career</h3>
+            <p>
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia.
+            </p>
+            <div className="blogInfo">
+              <p>Admin</p>
+              <p>Comments</p>
+              <p>Date</p>
+            </div>
+          </a>
+        </div>
         <div className="blogsList">
           <a href="">
             <img src={codingguy} alt="blogImg" />

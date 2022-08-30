@@ -1,3 +1,6 @@
+html {
+scroll-behavior: smooth;  
+}
 .Header1 {
   display: block;
   background-image: url(./resources/open-book.jpg);
@@ -6,6 +9,10 @@
   background-repeat: no-repeat;
   z-index: -2;
   position: fixed;
+  min-height: 100%;
+  width: 100%;
+  /* top: 0; */
+  /* left: 0; */
 }
 .poster {
   display: flex;
@@ -16,6 +23,11 @@
 }
 .social-logos > a {
   margin: 0.7em;
+}
+.social-logos > a > img:hover {
+  cursor: pointer;
+  transition: 0.4s;
+  transform: scale(1.2);
 }
 .poster > a > img {
   width: 50px;
@@ -28,7 +40,83 @@
 .Navbar {
   padding: 1em;
   background-color: rgb(240, 255, 255, 0.5);
-  
+}
+.desktop-Navbar {
+  display: none;
+}
+.mobile-Navbar {
+  display: block;
+  transition: 0.7s;
+}
+.mobile-Navbar p {
+  color: white;
+  font-size: large;
+  margin-left: 1em;
+  width: fit-content;
+  transition: 0.7s;
+}
+.mobile-Navbar p:hover {
+  cursor: pointer;
+  color: green;
+  transition: 0.7s;
+  transform: scale(1.1);
+}
+.mobile-Navbar > span {
+  display: block;
+  position: relative;
+  animation: navSlider 0.7s forwards;
+}
+@-webkit-keyframes navSlider {
+  0% {
+    bottom: 50px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+@-moz-keyframes navSlider {
+  0% {
+    bottom: 50px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+@-o-keyframes navSlider {
+  0% {
+    bottom: 50px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+@keyframes navSlider {
+  0% {
+    bottom: 50px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+.navlist > a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  margin: 2em;
+  transition: 0.7s;
+}
+.navlist > a:hover {
+  transition: 0.7s;
+  color: green;
 }
 .Navbar > nav > a {
   display: flex;
@@ -38,12 +126,12 @@
   margin: 2em;
   text-decoration: none;
   color: white;
-  transition: .7s;
+  transition: 0.7s;
   font-size: large;
 }
 
 .Navbar > nav > a:hover {
-  transition: .7s;
+  transition: 0.7s;
   color: green;
 }
 .Herotext {
@@ -75,14 +163,14 @@
   border: none;
   width: 92vw;
   border-radius: 5px;
-  transition: .5s;
+  transition: 0.5s;
 }
-.Herotext > button:hover{
+.Herotext > button:hover {
   border: none;
   background-color: green;
-  box-shadow: 2px 2px 20px black;
+  box-shadow: 2px 2px 20px grey;
   color: white;
-  transition: .5s;
+  transition: 0.5s;
   cursor: pointer;
 }
 .Benifits {
@@ -95,7 +183,7 @@
   display: none;
 }
 .benifits-content {
-  padding: 1em;
+  padding: 0.2em;
 }
 .benifits-content span {
   color: green;
@@ -105,15 +193,15 @@
   display: flex;
 }
 .benifits-content img {
-  margin: 2em;
+  margin: 2em 0.5em;
   width: 50px;
   height: 50px;
 }
 .Figures {
-  background: url(./resources/books-figure-section.jpg);
-  background-color: #fff;
+  background: url(./resources/books-figure-section.jpg), rgba(0, 0, 0, 0.2);
+  background-blend-mode: darken;
   padding: 1em;
-  color: rgb(255, 60, 60);
+  color: white;
 }
 .figuresData {
   display: flex;
@@ -133,7 +221,7 @@
 .Courses {
   background-color: white;
   text-align: center;
-  padding: 2em;
+  padding: 1em 0em;
 }
 .Courses span {
   color: green;
@@ -144,29 +232,27 @@
 }
 .Courses h2 {
   font-size: xxx-large;
-  margin: 0 0.5em;
+  /* margin: 0 0em; */
 }
 .course-item-container {
   display: grid;
   grid-template-columns: auto;
 }
-.course-item-container a {
-  margin: 1em;
-  text-decoration: none;
-  color: black;
+.course-item-container div {
+  margin: 0.3em 0.5em;
 }
 .course-item {
   background-color: rgb(246, 246, 246);
   padding: 3em 1em;
   border-radius: 5px;
-  transition: .7s;
+  transition: 0.7s;
   font-size: larger;
 }
 .course-item:hover {
   background-color: green;
   transition: 0.7s;
   color: white;
-
+  cursor: pointer;
 }
 .Testimonials {
   background-color: white;
@@ -184,11 +270,11 @@
 }
 .testimonials_container {
   text-align: left;
-  padding: 0.5em;
+  padding: 0em;
 }
 .testimonials_list {
   padding: 1em 0.2em;
-  margin: 1em;
+  margin: 1em 0em;
   border-radius: 10px;
   background-color: rgb(246, 246, 246);
 }
@@ -199,11 +285,6 @@
 .testimonials_list div span p {
   color: green;
 }
-/* .testimonials_list div img {
-  width: 70px;
-  height: 70px;
-  margin: 1.5em 1em;
-} */
 .reviewDescription {
   margin: -0.5em 1em;
 }
@@ -219,6 +300,12 @@
   background-color: rgb(246, 246, 246);
   border-radius: 10px;
   margin: 1em;
+  transition: 0.4s;
+}
+.blogsList:hover {
+  transform: scale(1.009);
+  transition: 0.4s;
+  box-shadow: grey 2px 2px 20px;
 }
 .blogsContainer a {
   text-decoration: none;
@@ -231,6 +318,11 @@
 .blogsList a h3 {
   margin: 1em;
   text-align: left;
+  transition: 0.4s;
+}
+.blogsList a h3:hover {
+  color: green;
+  transition: 0.4s;
 }
 .blogsList a p {
   margin: 1em;
@@ -285,6 +377,11 @@
   text-decoration: none;
   color: black;
 }
+.footer-social-icons > a > img:hover {
+  cursor: pointer;
+  transition: 0.4s;
+  transform: scale(1.2);
+}
 
 /* tablets */
 @media only screen and (min-width: 600px) {
@@ -293,7 +390,20 @@
     background-color: rgb(240, 255, 255, 0.5);
     font-size: large;
   }
-  .Navbar > nav > a {
+  .desktop-Navbar {
+    display: none;
+  }
+  .mobile-Navbar {
+    display: block;
+  }
+  .navlist > a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    margin: 2em;
+  }
+  .mobile-Navbar > nav > a {
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -309,10 +419,15 @@
     width: 95vw;
   }
   .Figures {
-    background: url(./resources/books-figure-section.jpg);
+    background: url(./resources/books-figure-section.jpg), rgba(0, 0, 0, 0.2);
+    background-blend-mode: darken;
     padding: 3em;
-    color: rgb(255, 60, 60);
+    color: white;
   }
+  /* .Figures div {
+    background-color: black;
+    z-index: 2;
+  } */
   .figuresData {
     display: flex;
     justify-content: center;
@@ -326,8 +441,10 @@
     display: grid;
     grid-template-columns: auto auto auto;
   }
+  .course-item-container div {
+    margin: 0.3em;
+  }
   .course-item {
-    margin: 0em;
     background-color: rgb(246, 246, 246);
     padding: 1em 1em;
     border-radius: 5px;
@@ -347,9 +464,16 @@
     grid-template-columns: auto auto;
   }
 }
-
-/* desktops */
 @media only screen and (min-width: 768px) {
+.blogsContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: .1em;
+  }
+
+}
+/* desktops */
+@media only screen and (min-width: 900px) {
   .Header1 {
     background-image: url(./resources/open-book.jpg);
     min-height: 100%;
@@ -373,15 +497,20 @@
   .social-logos {
     display: block;
   }
+
   .social-logos > a > img {
     width: 50px;
     height: 50px;
+    transition: 0.4s;
   }
   .Navbar {
     background-color: rgb(240, 255, 255, 0.5);
     margin: 1em;
   }
-  .Navbar > nav {
+  nav.mobile-Navbar {
+    display: none;
+  }
+  .desktop-Navbar {
     display: flex;
     flex-direction: initial;
   }
@@ -423,9 +552,10 @@
   .benifits-img {
     background-image: url(./resources/woman.jpg);
     display: block;
-    width: 100%;
+    width: 90%;
     height: auto;
-    z-index: 3;
+    z-index: 1;
+    background-position: center;
   }
   .Benifits {
     display: flex;
@@ -449,9 +579,10 @@
     height: 50px;
   }
   .Figures {
-    background: url(./resources/books-figure-section.jpg);
+    background: url(./resources/books-figure-section.jpg), rgba(0, 0, 0, 0.2);
+    background-blend-mode: darken;
     padding: 3em;
-    color: rgb(255, 60, 60);
+    color: white;
   }
   .figuresData {
     display: flex;
@@ -461,7 +592,7 @@
   .course-item-container {
     display: grid;
     margin: 1em;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
   }
   .course-item-container a {
     margin: 0.5em;
@@ -480,11 +611,15 @@
   .blogsContainer {
     display: grid;
     grid-template-columns: auto auto auto;
+    /* margin: 1em 3em; */
   }
   .Footer {
     padding: 0.5em;
     background-color: whitesmoke;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
+  }
+  .footer-social-icons > a > img {
+    transition: 0.4s;
   }
 }

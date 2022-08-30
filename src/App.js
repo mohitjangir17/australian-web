@@ -7,9 +7,9 @@ import Courses from "./components/Courses";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
 import Blogs from "./components/Blogs";
-import { motion } from 'framer-motion'
 // import SupportEngine from "./components/SupportEngine";
 // import Comm100 from "./components/Comm100/Comm100Fetch";
+import { motion } from 'framer-motion'
 function FadeInWhenVisible({ children }) {
   return (
     <motion.div
@@ -17,7 +17,7 @@ function FadeInWhenVisible({ children }) {
       whileInView="visible"
       viewport={{ once: true }}
       transition={{
-        duration: 1.5,
+        duration: 1,
         delay: 0.3,
         // ease: [0, 0.5, 0.7, 1.01],
       }}
@@ -35,29 +35,30 @@ function App() {
     <div className="App">
       <Header />
       {/* <Comm100 /> */}
+      <div className="backgroundWhite" >
+        <FadeInWhenVisible>
+          <Benifits />
+        </FadeInWhenVisible>
 
-      <FadeInWhenVisible>
-        <Benifits />
-      </FadeInWhenVisible>
+        <FadeInWhenVisible>
+          <Figures />
+        </FadeInWhenVisible>
 
-      <FadeInWhenVisible>
-        <Figures />
-      </FadeInWhenVisible>
+        <FadeInWhenVisible>
+          <Courses />
+        </FadeInWhenVisible>
 
-      <FadeInWhenVisible>
-        <Courses />
-      </FadeInWhenVisible>
+        <FadeInWhenVisible>
+          <Blogs />
+        </FadeInWhenVisible>
 
-      <FadeInWhenVisible>
-        <Blogs />
-      </FadeInWhenVisible>
+        <FadeInWhenVisible>
+          <Testimonials />
+        </FadeInWhenVisible>
 
-      <FadeInWhenVisible>
-        <Testimonials />
-      </FadeInWhenVisible>
-
-      <Footer />
-      {/* <SupportEngine /> */}
+        <Footer />
+        {/* <SupportEngine /> */}
+      </div>
     </div>
   );
 }
