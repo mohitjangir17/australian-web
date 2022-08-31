@@ -3,6 +3,7 @@ import logo from "./resources/logo192.png";
 import facebooklogo from "../components/resources/facebook logo.png";
 import instalogo from "../components/resources/instagram.svg";
 import arrow from "../components/resources/arrow.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -26,71 +27,71 @@ function Footer() {
       <div className="footer-columns">
         <h3>Explore</h3>
         <div className="exploreLinks">
-          <a href="#">
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             About Us
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Services
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Cources
-          </a>
-          <a href="">
+          </Link>
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Blogs
-          </a>
-          <a href="">
+          </Link>
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Contact Us
-          </a>
+          </Link>
         </div>
       </div>
       <div className="footer-columns">
         <h3>Our Links</h3>
         <div className="linksCol">
-          <a href="">
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Contact Us
-          </a>
-          <a href="">
+          </Link>
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Pricing
-          </a>
-          <a href="">
+          </Link>
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Terms & Conditions
-          </a>
-          <a href="">
+          </Link>
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Privacy
-          </a>
-          <a href="">
+          </Link>
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Feedbacks
-          </a>
+          </Link>
         </div>
       </div>
       <div className="footer-columns">

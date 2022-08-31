@@ -1,5 +1,4 @@
 import "./components.css";
-import reactlogo from "./resources/logo192.png";
 
 function Testimonials() {
   return (

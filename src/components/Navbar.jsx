@@ -1,6 +1,7 @@
 import "../components/components.css";
 import React, { useState } from "react";
 import ToggleDisplay from "react-toggle-display";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [show, setShow] = useState(false);
@@ -14,18 +15,18 @@ function Navbar() {
         <p onClick={handleClick}>Menu</p>
         <ToggleDisplay show={show}>
           <div className="navlist">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
-            <a href="">All Cources</a>
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contacts">Contact</Link>
+            <Link to="/blogs">Blogs</Link>
           </div>
         </ToggleDisplay>
       </nav>
       <nav className="desktop-Navbar">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
-        <a href="">All Cources</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contacts">Contact</Link>
+        <Link to="/blogs">Blogs</Link>
       </nav>
     </div>
   );

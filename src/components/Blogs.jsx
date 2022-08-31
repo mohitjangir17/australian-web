@@ -1,5 +1,6 @@
 import "./components.css";
 import codingguy from "./resources/coding-g03bcc4bcb_1280.jpg";
+import { Link } from "react-router-dom";
 
 function Blogs() {
   return (
@@ -7,8 +8,9 @@ function Blogs() {
       <span className="spanTestimonials">Blogs</span>
       <h2>Our Latest Blogs</h2>
       <div className="blogsContainer">
-        <div className="blogsList">
-          <a href="">
+        <Link className="Link" to="/blogs">
+          {" "}
+          <div className="blogsList">
             <img src={codingguy} alt="blogImg" />
             <h3>Build your Dream Software & Engineering Career</h3>
             <p>
@@ -20,11 +22,11 @@ function Blogs() {
               <p>Comments</p>
               <p>Date</p>
             </div>
-          </a>
-        </div>
-
-        <div className="blogsList">
-          <a href="">
+          </div>
+        </Link>
+        <Link className="Link" to="/blogs">
+          {" "}
+          <div className="blogsList">
             <img src={codingguy} alt="blogImg" />
             <h3>Build your Dream Software & Engineering Career</h3>
             <p>
@@ -36,10 +38,11 @@ function Blogs() {
               <p>Comments</p>
               <p>Date</p>
             </div>
-          </a>
-        </div>
-        <div className="blogsList">
-          <a href="">
+          </div>
+        </Link>
+        <Link className="Link" to="/blogs">
+          {" "}
+          <div className="blogsList">
             <img src={codingguy} alt="blogImg" />
             <h3>Build your Dream Software & Engineering Career</h3>
             <p>
@@ -51,10 +54,11 @@ function Blogs() {
               <p>Comments</p>
               <p>Date</p>
             </div>
-          </a>
-        </div>
-        <div className="blogsList">
-          <a href="">
+          </div>
+        </Link>
+        <Link className="Link" to="/blogs">
+          {" "}
+          <div className="blogsList">
             <img src={codingguy} alt="blogImg" />
             <h3>Build your Dream Software & Engineering Career</h3>
             <p>
@@ -66,8 +70,9 @@ function Blogs() {
               <p>Comments</p>
               <p>Date</p>
             </div>
-          </a>
-        </div>
+          </div>
+        </Link>
+        
       </div>
     </div>
   );

@@ -303,28 +303,29 @@ scroll-behavior: smooth;
   transition: 0.4s;
 }
 .blogsList:hover {
+  cursor: pointer;
   transform: scale(1.009);
   transition: 0.4s;
   box-shadow: grey 2px 2px 20px;
-}
-.blogsContainer a {
-  text-decoration: none;
-  color: black;
 }
 .blogsList img {
   width: 100%;
   border-radius: 10px 10px 0px 0px;
 }
-.blogsList a h3 {
+.blogsList h3 {
   margin: 1em;
   text-align: left;
   transition: 0.4s;
 }
-.blogsList a h3:hover {
+.blogsList h3:hover {
   color: green;
   transition: 0.4s;
 }
-.blogsList a p {
+.Link {
+  text-decoration: none;
+  color: black;
+}
+.blogsList  p {
   margin: 1em;
   text-align: left;
 }
@@ -366,16 +367,34 @@ scroll-behavior: smooth;
   margin-top: 0.5em;
   text-decoration: none;
   color: black;
+  transition: .7s;
+}
+.exploreLinks > a:hover {
+  color: green;
+  transition: .7s;
+  scale: 1.03;
 }
 .linksCol > a {
   margin-top: 0.5em;
   text-decoration: none;
   color: black;
+  transition: .7s;
+}
+.linksCol > a:hover {
+  color: green;
+  transition: .7s;
+  scale: 1.03;
 }
 .questionsCol > a {
   margin-top: 0.5em;
   text-decoration: none;
   color: black;
+  transition: .7s;
+}
+.questionsCol > a:hover {
+  color: green;
+  transition: .7s;
+  scale: 1.03;
 }
 .footer-social-icons > a > img:hover {
   cursor: pointer;
@@ -473,7 +492,7 @@ scroll-behavior: smooth;
 
 }
 /* desktops */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
   .Header1 {
     background-image: url(./resources/open-book.jpg);
     min-height: 100%;
@@ -611,7 +630,7 @@ scroll-behavior: smooth;
   .blogsContainer {
     display: grid;
     grid-template-columns: auto auto auto;
-    /* margin: 1em 3em; */
+    margin: 2em;
   }
   .Footer {
     padding: 0.5em;
