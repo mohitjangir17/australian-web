@@ -16,7 +16,7 @@ function FadeInWhenVisible({ children }) {
       transition={{
         duration: 1,
         delay: 0.3,
-        // ease: [0, 0.5, 0.7, 1.01],
+        ease: [0, 0.5, 0.7, 1.01],
       }}
       variants={{
         visible: { opacity: 1, y: 0 },

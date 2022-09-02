@@ -1,9 +1,11 @@
+/* @import url('http://fonts.cdnfonts.com/css/segoe-ui-4'); */
 html {
-scroll-behavior: smooth;  
+  scroll-behavior: smooth;
 }
 .Header1 {
   display: block;
-  background-image: url(./resources/open-book.jpg);
+  background: url(./resources/open-book.jpg), rgba(0, 0, 0, 0.21);
+  background-blend-mode: darken;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -273,7 +275,7 @@ scroll-behavior: smooth;
   padding: 0em;
 }
 .testimonials_list {
-  padding: 1em 0.2em;
+  padding: 1em 0.2em 3em 0.2em;
   margin: 1em 0em;
   border-radius: 10px;
   background-color: rgb(246, 246, 246);
@@ -325,7 +327,7 @@ scroll-behavior: smooth;
   text-decoration: none;
   color: black;
 }
-.blogsList  p {
+.blogsList p {
   margin: 1em;
   text-align: left;
 }
@@ -367,33 +369,33 @@ scroll-behavior: smooth;
   margin-top: 0.5em;
   text-decoration: none;
   color: black;
-  transition: .7s;
+  transition: 0.7s;
 }
 .exploreLinks > a:hover {
   color: green;
-  transition: .7s;
+  transition: 0.7s;
   scale: 1.03;
 }
 .linksCol > a {
   margin-top: 0.5em;
   text-decoration: none;
   color: black;
-  transition: .7s;
+  transition: 0.7s;
 }
 .linksCol > a:hover {
   color: green;
-  transition: .7s;
+  transition: 0.7s;
   scale: 1.03;
 }
 .questionsCol > a {
   margin-top: 0.5em;
   text-decoration: none;
   color: black;
-  transition: .7s;
+  transition: 0.7s;
 }
 .questionsCol > a:hover {
   color: green;
-  transition: .7s;
+  transition: 0.7s;
   scale: 1.03;
 }
 .footer-social-icons > a > img:hover {
@@ -484,12 +486,11 @@ scroll-behavior: smooth;
   }
 }
 @media only screen and (min-width: 768px) {
-.blogsContainer {
+  .blogsContainer {
     display: grid;
     grid-template-columns: auto auto;
-    margin: .1em;
+    margin: 0.1em;
   }
-
 }
 /* desktops */
 @media only screen and (min-width: 960px) {
@@ -602,11 +603,12 @@ scroll-behavior: smooth;
     background-blend-mode: darken;
     padding: 3em;
     color: white;
+    grid-template-columns: auto auto auto auto;
   }
   .figuresData {
     display: flex;
     justify-content: center;
-    margin: 2em;
+    margin: 1em;
   }
   .course-item-container {
     display: grid;
@@ -619,7 +621,7 @@ scroll-behavior: smooth;
 
   .testimonials_container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     text-align: left;
     padding: 0.5em;
   }

@@ -17,7 +17,7 @@ function Navbar() {
           <div className="navlist">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
-            <Link to="/contacts">Contact</Link>
+            <Link to="/allcourses">Courses</Link>
             <Link to="/blogs">Blogs</Link>
           </div>
         </ToggleDisplay>
@@ -25,7 +25,7 @@ function Navbar() {
       <nav className="desktop-Navbar">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/contacts">Contact</Link>
+        <Link to="/allcourses">Courses</Link>
         <Link to="/blogs">Blogs</Link>
       </nav>
     </div>

@@ -1,6 +1,8 @@
 import "./components.css";
 import logo from "./resources/logo192.png";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import "../App.css";
 function Courses() {
   function FadeInWhenVisible({ children }) {
     return (
@@ -29,40 +31,69 @@ function Courses() {
       <section className="course-item-container">
         <FadeInWhenVisible>
           {" "}
+          <Link
+            to={{ pathname: "https://swipeupassignments.com" }}
+            target="_blank"
+            className="Link"
+          >
             <div className="course-item">
               <img width={80} src={logo} alt="course" />
               <h4>Web Development</h4>
             </div>
+          </Link>
         </FadeInWhenVisible>
         <FadeInWhenVisible>
           {" "}
+          <Link
+            to={{ pathname: "https://swipeupassignments.com" }}
+            target="_blank"
+            className="Link"
+          >
             <div className="course-item">
               <img width={80} src={logo} alt="course" />
               <h4>Web Development</h4>
             </div>
+          </Link>
         </FadeInWhenVisible>
         <FadeInWhenVisible>
           {" "}
+          <Link
+            to={{ pathname: "https://swipeupassignments.com" }}
+            target="_blank"
+            className="Link"
+          >
             <div className="course-item">
               <img width={80} src={logo} alt="course" />
               <h4>Web Development</h4>
             </div>
+          </Link>
         </FadeInWhenVisible>
         <FadeInWhenVisible>
           {" "}
+          <Link
+            to={{ pathname: "https://swipeupassignments.com" }}
+            target="_blank"
+            className="Link"
+          >
             <div className="course-item">
               <img width={80} src={logo} alt="course" />
               <h4>Web Development</h4>
             </div>
+          </Link>
         </FadeInWhenVisible>
         <FadeInWhenVisible>
           {" "}
+          <Link
+            to={{ pathname: "https://swipeupassignments.com" }}
+            target="_blank"
+            className="Link"
+          >
             <div className="course-item">
               <img width={80} src={logo} alt="course" />
               <h4>Web Development</h4>
             </div>
+          </Link>
         </FadeInWhenVisible>
-        
       </section>
     </div>
   );

@@ -4,6 +4,7 @@ import About from "./components/About";
 import AllBlogs from "./components/AllBlogs";
 import Home from "./components/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import AllCourses from "./components/AllCources";
 // import SupportEngine from "./components/SupportEngine";
 // import Comm100 from "./components/Comm100/Comm100Fetch"; 
 
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route exact path="/about">
             <About />
+          </Route>
+          <Route exact path="/allcourses">
+            <AllCourses />
           </Route>
         </Switch>
         <Footer />
