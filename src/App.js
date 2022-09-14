@@ -5,6 +5,7 @@ import AllBlogs from "./components/AllBlogs";
 import Home from "./components/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AllCourses from "./components/AllCources";
+import Upload from "./components/Uploads";
 // import SupportEngine from "./components/SupportEngine";
 // import Comm100 from "./components/Comm100/Comm100Fetch"; 
 
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route exact path="/allcourses">
             <AllCourses />
+          </Route>
+          <Route exact path="/upload">
+            <Upload />
           </Route>
         </Switch>
         <Footer />

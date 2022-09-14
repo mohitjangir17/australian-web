@@ -2,6 +2,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 .Header1 {
   display: block;
   background: url(./resources/open-book.jpg), rgba(0, 0, 0, 0.21);
@@ -16,40 +17,50 @@ html {
   /* top: 0; */
   /* left: 0; */
 }
+
 .poster {
   display: flex;
   padding: 1em 2em;
 }
+
 .social-logos {
   display: none;
 }
-.social-logos > a {
+
+.social-logos>a {
   margin: 0.7em;
 }
-.social-logos > a > img:hover {
+
+.social-logos>a>img:hover {
   cursor: pointer;
   transition: 0.4s;
   transform: scale(1.2);
 }
-.poster > a > img {
+
+.poster>a>img {
   width: 50px;
   height: 50px;
 }
-.social-logos > a > img {
+
+.social-logos>a>img {
   width: 50px;
   height: 50px;
 }
+
 .Navbar {
   padding: 1em;
   background-color: rgb(240, 255, 255, 0.5);
 }
+
 .desktop-Navbar {
   display: none;
 }
+
 .mobile-Navbar {
   display: block;
   transition: 0.7s;
 }
+
 .mobile-Navbar p {
   color: white;
   font-size: large;
@@ -57,58 +68,69 @@ html {
   width: fit-content;
   transition: 0.7s;
 }
+
 .mobile-Navbar p:hover {
   cursor: pointer;
   color: green;
   transition: 0.7s;
   transform: scale(1.1);
 }
-.mobile-Navbar > span {
+
+.mobile-Navbar>span {
   display: block;
   position: relative;
   animation: navSlider 0.7s forwards;
 }
+
 @-webkit-keyframes navSlider {
   0% {
     bottom: 50px;
     opacity: 0;
   }
+
   100% {
     bottom: 0px;
     opacity: 1;
   }
 }
+
 @-moz-keyframes navSlider {
   0% {
     bottom: 50px;
     opacity: 0;
   }
+
   100% {
     bottom: 0px;
     opacity: 1;
   }
 }
+
 @-o-keyframes navSlider {
   0% {
     bottom: 50px;
     opacity: 0;
   }
+
   100% {
     bottom: 0px;
     opacity: 1;
   }
 }
+
 @keyframes navSlider {
   0% {
     bottom: 50px;
     opacity: 0;
   }
+
   100% {
     bottom: 0px;
     opacity: 1;
   }
 }
-.navlist > a {
+
+.navlist>a {
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -116,11 +138,13 @@ html {
   margin: 2em;
   transition: 0.7s;
 }
-.navlist > a:hover {
+
+.navlist>a:hover {
   transition: 0.7s;
   color: green;
 }
-.Navbar > nav > a {
+
+.Navbar>nav>a {
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -132,22 +156,25 @@ html {
   font-size: large;
 }
 
-.Navbar > nav > a:hover {
+.Navbar>nav>a:hover {
   transition: 0.7s;
   color: green;
 }
+
 .Herotext {
   display: block;
   color: white;
   margin: 3em 1em 1em 1em;
   width: 95vw;
 }
-.Herotext > h1 {
+
+.Herotext>h1 {
   font-weight: 600;
   color: #fff;
   font-size: 40px;
   line-height: 1.2;
 }
+
 .textSpan {
   font-weight: 700;
   color: rgba(255, 255, 255, 0.7);
@@ -158,7 +185,8 @@ html {
   position: relative;
   z-index: 0;
 }
-.Herotext > button {
+
+.Herotext>button {
   padding: 1em 2em;
   font-weight: 600;
   font-size: large;
@@ -167,7 +195,8 @@ html {
   border-radius: 5px;
   transition: 0.5s;
 }
-.Herotext > button:hover {
+
+.Herotext>button:hover {
   border: none;
   background-color: green;
   box-shadow: 2px 2px 20px grey;
@@ -175,56 +204,125 @@ html {
   transition: 0.5s;
   cursor: pointer;
 }
+
+.UploadForm {
+  position: relative;
+  width: 75%;
+  z-index: 1;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2em;
+  margin: 3em 1em;
+  box-shadow: 2px 2px 20px grey;
+
+}
+
+.UploadForm>form>label {
+  color: green;
+  font-weight: 500;
+  font-size: larger;
+  margin: 0.5em 1em;
+}
+
+.UploadForm>form>input {
+  margin: 0.5em 1em;
+  padding: 0.5em 0.5em 0 0;
+  font-size: larger;
+  width: 80%;
+  border: none;
+  border-bottom: green solid 2px;
+}
+
+.UploadForm>form>input:focus {
+  outline: none;
+}
+
+.UploadForm>form>a {
+  padding: .7em 2em;
+  font-weight: 600;
+  margin: .4em 1em;
+  font-size: large;
+  background-color: white;
+  border: grey 2px solid;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  transition: 0.5s;
+
+}
+
+.UploadForm>form>a:hover {
+  border: none;
+  background-color: green;
+  box-shadow: 2px 2px 20px grey;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+  border: grey solid 2px;
+}
+
 .Benifits {
   display: flex;
   z-index: 1;
   background-color: white;
   padding: 1em;
 }
+
 .benifits-img {
   display: none;
 }
+
 .benifits-content {
   padding: 0.2em;
 }
+
 .benifits-content span {
   color: green;
   font-weight: 700;
 }
-.benifits-content > div {
+
+.benifits-content>div {
   display: flex;
 }
+
 .benifits-content img {
   margin: 2em 0.5em;
   width: 50px;
   height: 50px;
 }
+
 .Figures {
   background: url(./resources/books-figure-section.jpg), rgba(0, 0, 0, 0.2);
   background-blend-mode: darken;
   padding: 1em;
   color: white;
 }
+
 .figuresData {
   display: flex;
   /* justify-content: center; */
   margin: 1em;
 }
+
 .figuresData img {
   margin: 1em;
 }
+
 .figuresData h1 {
   font-weight: 700;
 }
+
 .figuresData p {
   margin-top: -1em;
   font-weight: 500;
 }
+
 .Courses {
   background-color: white;
   text-align: center;
   padding: 1em 0em;
 }
+
 .Courses span {
   color: green;
   font-weight: 700;
@@ -232,17 +330,21 @@ html {
   display: block;
   margin: 2em;
 }
+
 .Courses h2 {
   font-size: xxx-large;
   /* margin: 0 0em; */
 }
+
 .course-item-container {
   display: grid;
   grid-template-columns: auto;
 }
+
 .course-item-container div {
   margin: 0.3em 0.5em;
 }
+
 .course-item {
   background-color: rgb(246, 246, 246);
   padding: 3em 1em;
@@ -250,93 +352,113 @@ html {
   transition: 0.7s;
   font-size: larger;
 }
+
 .course-item:hover {
   background-color: green;
   transition: 0.7s;
   color: white;
   cursor: pointer;
 }
+
 .Testimonials {
   background-color: white;
   padding: 4em 1em;
   text-align: center;
 }
+
 .spanTestimonials {
   font-weight: 700;
   font-size: x-large;
   color: green;
 }
+
 .Testimonials h2 {
   font-size: xxx-large;
   margin: 0 0.5em;
 }
+
 .testimonials_container {
   text-align: left;
   padding: 0em;
 }
+
 .testimonials_list {
   padding: 1em 0.2em 3em 0.2em;
   margin: 1em 0em;
   border-radius: 10px;
   background-color: rgb(246, 246, 246);
 }
+
 .testimonials_list div {
   display: flex;
   padding: 1em;
 }
+
 .testimonials_list div span p {
   color: green;
 }
+
 .reviewDescription {
   margin: -0.5em 1em;
 }
+
 .Blogs {
   background-color: white;
   text-align: center;
   padding-top: 2em;
 }
+
 .Blogs h2 {
   font-size: xxx-large;
 }
+
 .blogsList {
   background-color: rgb(246, 246, 246);
   border-radius: 10px;
   margin: 1em;
   transition: 0.4s;
 }
+
 .blogsList:hover {
   cursor: pointer;
   transform: scale(1.009);
   transition: 0.4s;
   box-shadow: grey 2px 2px 20px;
 }
+
 .blogsList img {
   width: 100%;
   border-radius: 10px 10px 0px 0px;
 }
+
 .blogsList h3 {
   margin: 1em;
   text-align: left;
   transition: 0.4s;
 }
+
 .blogsList h3:hover {
   color: green;
   transition: 0.4s;
 }
+
 .Link {
   text-decoration: none;
   color: black;
 }
+
 .blogsList p {
   margin: 1em;
   text-align: left;
 }
+
 .blogInfo {
   display: flex;
   text-align: left;
   font-weight: 700;
   padding-bottom: 2em;
 }
+
 .Footer {
   padding: 0.5em;
   background-color: whitesmoke;
@@ -348,60 +470,152 @@ html {
   margin: 0.5em 2em;
 }
 
-.footer-social-icons > a > img {
+.footer-social-icons>a>img {
   height: 50px;
   width: 50px;
   margin: 0.5em;
 }
+
 .footerLogo {
   height: 60px;
   width: 60px;
 }
+
 .exploreLinks,
 .linksCol,
 .questionsCol {
   display: flex;
   flex-direction: column;
-  /* padding: 0.5em; */
 }
 
-.exploreLinks > a {
+.exploreLinks>a {
   margin-top: 0.5em;
   text-decoration: none;
   color: black;
   transition: 0.7s;
 }
-.exploreLinks > a:hover {
+
+.exploreLinks>a:hover {
   color: green;
   transition: 0.7s;
   scale: 1.03;
 }
-.linksCol > a {
+
+.linksCol>a {
   margin-top: 0.5em;
   text-decoration: none;
   color: black;
   transition: 0.7s;
 }
-.linksCol > a:hover {
+
+.linksCol>a:hover {
   color: green;
   transition: 0.7s;
   scale: 1.03;
 }
-.questionsCol > a {
+
+.questionsCol>a {
   margin-top: 0.5em;
   text-decoration: none;
   color: black;
   transition: 0.7s;
 }
-.questionsCol > a:hover {
+
+.questionsCol>a:hover {
   color: green;
   transition: 0.7s;
   scale: 1.03;
 }
-.footer-social-icons > a > img:hover {
+
+.footer-social-icons>a>img:hover {
   cursor: pointer;
   transition: 0.4s;
   transform: scale(1.2);
+}
+
+.backgroundWhite {
+  padding-top: 1em;
+}
+
+.Upload {
+  background-color: white;
+  width: 100%;
+}
+
+.Upload form {
+  position: relative;
+  width: 87%;
+  z-index: 1;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2em .5em;
+  margin: 3em 1em;
+  box-shadow: 2px 2px 20px grey;
+
+}
+
+.Upload>form>label {
+  color: green;
+  font-weight: 500;
+  font-size: larger;
+  margin: 0.5em 1em;
+}
+
+.Upload>form>input {
+  margin: 0.5em 1em;
+  padding: 0.5em 0.5em 0 0;
+  font-size: larger;
+  width: 85%;
+  border: none;
+  border-bottom: green solid 2px;
+}
+
+.Upload>form>input:focus {
+  outline: none;
+}
+
+.Upload>form>a {
+  padding: .7em 2em;
+  font-weight: 600;
+  margin: .4em 1em;
+  font-size: large;
+  background-color: white;
+  border: grey 2px solid;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  transition: 0.5s;
+
+}
+
+.Upload>form>a:hover {
+  border: none;
+  background-color: green;
+  box-shadow: 2px 2px 20px grey;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+  border: grey solid 2px;
+}
+
+.Upload>form>button {
+  padding: 1em 2em;
+  margin: 1em;
+  font-weight: 600;
+  font-size: large;
+  border: none;
+  width: max-content;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.Upload>form>button:hover {
+  border: none;
+  background-color: green;
+  box-shadow: 2px 2px 20px grey;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 /* tablets */
@@ -411,20 +625,16 @@ html {
     background-color: rgb(240, 255, 255, 0.5);
     font-size: large;
   }
+
   .desktop-Navbar {
     display: none;
   }
+
   .mobile-Navbar {
     display: block;
   }
-  .navlist > a {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    color: white;
-    margin: 2em;
-  }
-  .mobile-Navbar > nav > a {
+
+  .navlist>a {
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -432,68 +642,107 @@ html {
     margin: 2em;
   }
 
-  .Navbar > nav > a {
+  .mobile-Navbar>nav>a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    margin: 2em;
+  }
+
+  .Navbar>nav>a {
     text-decoration: none;
     color: white;
   }
-  .Herotext > button {
+
+  .Herotext>button {
     width: 95vw;
   }
+
   .Figures {
     background: url(./resources/books-figure-section.jpg), rgba(0, 0, 0, 0.2);
     background-blend-mode: darken;
     padding: 3em;
     color: white;
   }
-  /* .Figures div {
-    background-color: black;
-    z-index: 2;
-  } */
+
   .figuresData {
     display: flex;
     justify-content: center;
     margin: 2em;
   }
+
   .Figures {
     display: grid;
     grid-template-columns: auto auto;
   }
+
   .course-item-container {
     display: grid;
     grid-template-columns: auto auto auto;
   }
+
   .course-item-container div {
     margin: 0.3em;
   }
+
   .course-item {
     background-color: rgb(246, 246, 246);
     padding: 1em 1em;
     border-radius: 5px;
   }
+
   .testimonials_container {
     display: grid;
     grid-template-columns: auto auto;
     text-align: left;
     padding: 0.5em;
   }
+
   .testimonials_list {
     margin: 1em;
     padding: 1em 0.2em 3em 0.2em;
   }
+
   .blogsContainer {
     display: grid;
     grid-template-columns: auto auto;
   }
+
+  .backgroundWhite {
+    padding-top: 3em;
+  }
+
+    .Upload form {
+      position: relative;
+      width: 74%;
+      padding: 2em .5em;
+      margin: 3em 5em;
+    }
 }
+
+/* desktops */
 @media only screen and (min-width: 768px) {
   .blogsContainer {
     display: grid;
     grid-template-columns: auto auto;
     margin: 0.1em;
   }
+
+    .Upload form {
+      position: relative;
+      width: 75%;
+      padding: 2em .5em;
+      margin: 4em 6em;
+    }
+
+  .backgroundWhite {
+    padding-top: 3em;
+  }
 }
-/* desktops */
+
 @media only screen and (min-width: 960px) {
+
   .Header1 {
     background-image: url(./resources/open-book.jpg);
     min-height: 100%;
@@ -505,47 +754,57 @@ html {
     left: 0;
     background-position: center;
   }
+
   .poster {
     display: flex;
     justify-content: space-between;
     padding: 1em 6em;
   }
-  .poster > a > img {
+
+  .poster>a>img {
     width: 50px;
     height: 50px;
   }
+
   .social-logos {
     display: block;
   }
 
-  .social-logos > a > img {
+  .social-logos>a>img {
     width: 50px;
     height: 50px;
     transition: 0.4s;
   }
+
   .Navbar {
     background-color: rgb(240, 255, 255, 0.5);
     margin: 1em;
   }
+
   nav.mobile-Navbar {
     display: none;
   }
+
   .desktop-Navbar {
     display: flex;
     flex-direction: initial;
   }
-  .Navbar > nav > a {
+
+  .Navbar>nav>a {
     margin: 1em 2em;
   }
-  .Herotext > button {
+
+  .Herotext>button {
     width: auto;
     padding: 1em 2em;
   }
+
   .Herotext {
     margin: 3em 6em;
     width: 90vw;
   }
-  .Herotext > h1 {
+
+  .Herotext>h1 {
     font-weight: 600;
     color: #fff;
     font-size: 40px;
@@ -553,7 +812,8 @@ html {
     margin-bottom: 1em;
     width: 40%;
   }
-  .Herotext > p {
+
+  .Herotext>p {
     font-weight: 700;
     color: rgba(255, 255, 255, 0.7);
     font-size: 14px;
@@ -564,11 +824,55 @@ html {
     width: 40%;
   }
 
+  .UploadForm {
+    position: absolute;
+    top: 15em;
+    right: 5em;
+    width: 30%;
+    z-index: 1;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2em;
+    margin: 1em;
+    box-shadow: 2px 2px 20px grey;
+  }
+
+  .UploadForm>form>label {
+    color: green;
+    font-weight: 500;
+    font-size: larger;
+    margin: 0.5em 1em;
+  }
+
+  .UploadForm>form>input {
+    margin: 0.5em 1em;
+    padding: 0.5em 0.5em 0 0;
+    font-size: larger;
+    width: 80%;
+  }
+
+  .UploadForm>form>input:focus {
+    outline: none;
+  }
+
+  .UploadForm>form>button {
+    padding: 1em 2em;
+    font-weight: 600;
+    margin: 0.4em 1em;
+    font-size: large;
+    background-color: white;
+    border: grey 2px solid;
+    width: max-content;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+
   .Benifits {
     display: flex;
     z-index: 1;
     background-color: rgb(255, 255, 255);
   }
+
   .benifits-img {
     background-image: url(./resources/woman.jpg);
     display: block;
@@ -577,27 +881,33 @@ html {
     z-index: 1;
     background-position: center;
   }
+
   .Benifits {
     display: flex;
     z-index: 1;
     background-color: white;
     padding: 1em;
   }
+
   .benifits-content {
     padding: 3em;
   }
+
   .benifits-content span {
     color: green;
     font-weight: 700;
   }
-  .benifits-content > div {
+
+  .benifits-content>div {
     display: flex;
   }
+
   .benifits-content img {
     margin: 2em;
     width: 50px;
     height: 50px;
   }
+
   .Figures {
     background: url(./resources/books-figure-section.jpg), rgba(0, 0, 0, 0.2);
     background-blend-mode: darken;
@@ -605,16 +915,19 @@ html {
     color: white;
     grid-template-columns: auto auto auto auto;
   }
+
   .figuresData {
     display: flex;
     justify-content: center;
     margin: 1em;
   }
+
   .course-item-container {
     display: grid;
     margin: 1em;
     grid-template-columns: auto auto auto auto;
   }
+
   .course-item-container a {
     margin: 0.5em;
   }
@@ -625,22 +938,96 @@ html {
     text-align: left;
     padding: 0.5em;
   }
+
   .testimonials_list {
     margin: 1em;
     padding: 1em 0.2em 3em 0.2em;
   }
+
   .blogsContainer {
     display: grid;
     grid-template-columns: auto auto auto;
     margin: 2em;
   }
+
   .Footer {
     padding: 0.5em;
     background-color: whitesmoke;
     display: grid;
     grid-template-columns: auto auto auto;
   }
-  .footer-social-icons > a > img {
+
+  .footer-social-icons>a>img {
     transition: 0.4s;
+  }
+
+  .backgroundWhite {
+    padding-top: 3em;
+  }
+
+    .Upload form {
+      position: relative;
+      width: 65%;
+      padding: 2em .5em;
+      margin: 5em 10em;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+  .backgroundWhite {
+    padding-top: 8em;
+  }
+
+  .UploadForm {
+    position: absolute;
+    top: 15em;
+    right: 15em;
+  }
+
+  .UploadForm {
+    position: absolute;
+    top: 15em;
+    right: 10em;
+    width: 30%;
+    z-index: 1;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2em;
+    margin: 1em;
+    box-shadow: 2px 2px 20px grey;
+  }
+
+  .UploadForm>form>label {
+    font-weight: 500;
+    font-size: larger;
+    margin: 0.5em 1em;
+  }
+
+  .UploadForm>form>input {
+    font-size: larger;
+    width: 80%;
+  }
+
+  .UploadForm>form>button {
+    padding: 1em 2em;
+    font-weight: 600;
+    margin: 0.4em 1em;
+    font-size: large;
+    background-color: white;
+    border: grey 2px solid;
+    width: max-content;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+
+    .Upload form {
+      position: relative;
+      width: 75%;
+      padding: 2em .5em;
+      margin: 7em 11em;
+    }
+
+  .backgroundWhite {
+    padding-top: 4em 0 0 0;
   }
 }

@@ -7,6 +7,7 @@ import Testimonials from "./Testimonials";
 import Blogs from "./Blogs";
 
 import { motion } from "framer-motion";
+import UploadForm from "./UploadForm";
 function FadeInWhenVisible({ children }) {
   return (
     <motion.div
@@ -30,23 +31,25 @@ function FadeInWhenVisible({ children }) {
 function Home() {
   return (
     <div className="Home">
-      <div className="backgroundWhite" >
-      <FadeInWhenVisible>
-        <Benifits />
-      </FadeInWhenVisible>
-      <FadeInWhenVisible>
-        <Figures />
-      </FadeInWhenVisible>
-      <FadeInWhenVisible>
-        <Courses />
-      </FadeInWhenVisible>
-      <FadeInWhenVisible>
-        <Blogs />
-      </FadeInWhenVisible>
-      <FadeInWhenVisible>
-        <Testimonials />
-      </FadeInWhenVisible>
-    </div>
+      <div className="backgroundWhite">
+        <UploadForm />
+       
+        <FadeInWhenVisible>
+          <Benifits />
+        </FadeInWhenVisible>
+        <FadeInWhenVisible>
+          <Figures />
+        </FadeInWhenVisible>
+        <FadeInWhenVisible>
+          <Courses />
+        </FadeInWhenVisible>
+        <FadeInWhenVisible>
+          <Blogs />
+        </FadeInWhenVisible>
+        <FadeInWhenVisible>
+          <Testimonials />
+        </FadeInWhenVisible>
+      </div>
     </div>
   );
 }
