@@ -206,15 +206,13 @@ html {
 }
 
 .UploadForm {
-  position: relative;
-  width: 75%;
+  display: flex;
   z-index: 1;
   background-color: white;
   border-radius: 10px;
-  padding: 2em;
+  padding: 2em 1em;
   margin: 3em 1em;
   box-shadow: 2px 2px 20px grey;
-
 }
 
 .UploadForm>form>label {
@@ -222,13 +220,14 @@ html {
   font-weight: 500;
   font-size: larger;
   margin: 0.5em 1em;
+  width: 100vw;
 }
 
 .UploadForm>form>input {
   margin: 0.5em 1em;
   padding: 0.5em 0.5em 0 0;
   font-size: larger;
-  width: 80%;
+  width: 75vw;
   border: none;
   border-bottom: green solid 2px;
 }
@@ -370,6 +369,8 @@ html {
   font-weight: 700;
   font-size: x-large;
   color: green;
+  margin: 1em 0;
+  display: block;
 }
 
 .Testimonials h2 {
@@ -380,6 +381,10 @@ html {
 .testimonials_container {
   text-align: left;
   padding: 0em;
+}
+
+.testimonials_container:hover {
+  cursor: grab;
 }
 
 .testimonials_list {
@@ -540,16 +545,18 @@ html {
 .Upload {
   background-color: white;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .Upload form {
   position: relative;
-  width: 87%;
+  width: 87vw;
   z-index: 1;
   background-color: white;
   border-radius: 10px;
   padding: 2em .5em;
-  margin: 3em 1em;
+  margin: 3em 0em;
   box-shadow: 2px 2px 20px grey;
 
 }
@@ -565,7 +572,7 @@ html {
   margin: 0.5em 1em;
   padding: 0.5em 0.5em 0 0;
   font-size: larger;
-  width: 85%;
+  width: 75vw;
   border: none;
   border-bottom: green solid 2px;
 }
@@ -713,12 +720,30 @@ html {
     padding-top: 3em;
   }
 
-    .Upload form {
-      position: relative;
-      width: 74%;
-      padding: 2em .5em;
-      margin: 3em 5em;
-    }
+  .UploadForm {
+    display: flex;
+    z-index: 1;
+    background-color: white;
+    border-radius: 10px;
+    /* padding: 4em 2em; */
+    margin: 2em 0em;
+    box-shadow: 2px 2px 20px grey;
+  }
+
+  .UploadForm>form>input {
+    margin: 0.5em 1em;
+    font-size: larger;
+    width: 25vw;
+    border: none;
+    border-bottom: green solid 2px;
+  }
+
+  .Upload form {
+    position: relative;
+    /* width: 74%; */
+    padding: 2em .5em;
+    margin: 3em 5em;
+  }
 }
 
 /* desktops */
@@ -729,12 +754,58 @@ html {
     margin: 0.1em;
   }
 
-    .Upload form {
-      position: relative;
-      width: 75%;
-      padding: 2em .5em;
-      margin: 4em 6em;
-    }
+  .Upload form {
+    position: relative;
+    width: 75%;
+    padding: 2em .5em;
+    margin: 4em 6em;
+  }
+
+  .UploadForm {
+    position: absolute;
+    top: 15em;
+    right: 1em;
+    width: 30vw;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2em;
+    margin: 1em;
+    box-shadow: 2px 2px 20px grey;
+  }
+
+  .Herotext>button {
+    width: auto;
+    padding: 1em 2em;
+  }
+
+  .Herotext {
+    margin: 3em 6em;
+    width: 90vw;
+  }
+
+  .Herotext>h1 {
+    font-weight: 600;
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 1em;
+    width: 45%;
+  }
+
+  .Herotext>p {
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    display: block;
+    letter-spacing: 2px;
+    margin-bottom: 3em;
+    font-family: inherit;
+    width: 45%;
+  }
+
+  .Upload>form>input {
+    width: 70vw;
+  }
 
   .backgroundWhite {
     padding-top: 3em;
@@ -848,7 +919,7 @@ html {
     margin: 0.5em 1em;
     padding: 0.5em 0.5em 0 0;
     font-size: larger;
-    width: 80%;
+    width: 25vw;
   }
 
   .UploadForm>form>input:focus {
@@ -965,12 +1036,16 @@ html {
     padding-top: 3em;
   }
 
-    .Upload form {
-      position: relative;
-      width: 65%;
-      padding: 2em .5em;
-      margin: 5em 10em;
-    }
+  .Upload form {
+    position: relative;
+    /* width: 65%; */
+    padding: 2em .5em;
+    margin: 5em 10em;
+  }
+
+  .Upload>form>input {
+    width: 70vw;
+  }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -981,21 +1056,9 @@ html {
   .UploadForm {
     position: absolute;
     top: 15em;
-    right: 15em;
+    right: 10em;
   }
 
-  .UploadForm {
-    position: absolute;
-    top: 15em;
-    right: 10em;
-    width: 30%;
-    z-index: 1;
-    background-color: white;
-    border-radius: 10px;
-    padding: 2em;
-    margin: 1em;
-    box-shadow: 2px 2px 20px grey;
-  }
 
   .UploadForm>form>label {
     font-weight: 500;
@@ -1005,7 +1068,7 @@ html {
 
   .UploadForm>form>input {
     font-size: larger;
-    width: 80%;
+    width: 28vw;
   }
 
   .UploadForm>form>button {
@@ -1020,12 +1083,12 @@ html {
     transition: 0.5s;
   }
 
-    .Upload form {
-      position: relative;
-      width: 75%;
-      padding: 2em .5em;
-      margin: 7em 11em;
-    }
+  .Upload form {
+    position: relative;
+    width: 75%;
+    padding: 2em .5em;
+    margin: 7em 11em;
+  }
 
   .backgroundWhite {
     padding-top: 4em 0 0 0;
