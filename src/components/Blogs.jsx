@@ -40,6 +40,7 @@ function Blogs() {
             </div>
           </div>
         </Link>
+
         <Link className="Link" to="/blogs">
           {" "}
           <div className="blogsList">
@@ -72,7 +73,6 @@ function Blogs() {
             </div>
           </div>
         </Link>
-        
       </div>
     </div>
   );
