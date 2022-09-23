@@ -28,47 +28,47 @@ function Figures() {
   return (
     <div className="Figures">
       <FadeInWhenVisible>
-      <div className="figuresData">
-        <img src={bookicon} alt="" />
-        <div>
-          <h1>
-            <CountUp end={100} useEasing duration={7} enableScrollSpy />
-          </h1>
-          <p>Success Stories</p>
-        </div>
-        </div>
-      </FadeInWhenVisible>
-      <FadeInWhenVisible >
-      <div className="figuresData">
-        <img src={bookicon} alt="" />
-        <div>
-          <h1>
-            <CountUp end={4750} useEasing duration={7} enableScrollSpy />
-          </h1>
-          <p>Success Stories</p>
-        </div>
+        <div className="figuresData">
+          <img src={bookicon} alt="" />
+          <div>
+            <h1>
+              <CountUp end={100} useEasing duration={7} enableScrollSpy />
+            </h1>
+            <p>Success Stories</p>
+          </div>
         </div>
       </FadeInWhenVisible>
       <FadeInWhenVisible>
-      <div className="figuresData">
-        <img src={bookicon} alt="" />
-        <div>
-          <h1>
-            <CountUp end={400} useEasing duration={7} enableScrollSpy />
-          </h1>
-          <p>Success Stories</p>
-        </div>
+        <div className="figuresData">
+          <img src={bookicon} alt="" />
+          <div>
+            <h1>
+              <CountUp end={4750} useEasing duration={7} enableScrollSpy />
+            </h1>
+            <p>Success Stories</p>
+          </div>
         </div>
       </FadeInWhenVisible>
-      <FadeInWhenVisible >
-      <div className="figuresData">
-        <img src={bookicon} alt="" />
-        <div>
-          <h1>
-            <CountUp end={1000} useEasing duration={7} enableScrollSpy />
-          </h1>
-          <p>Success Stories</p>
+      <FadeInWhenVisible>
+        <div className="figuresData">
+          <img src={bookicon} alt="" />
+          <div>
+            <h1>
+              <CountUp end={460} useEasing duration={7} enableScrollSpy />
+            </h1>
+            <p>Success Stories</p>
+          </div>
         </div>
+      </FadeInWhenVisible>
+      <FadeInWhenVisible>
+        <div className="figuresData">
+          <img src={bookicon} alt="" />
+          <div>
+            <h1>
+              <CountUp end={850} useEasing duration={7} enableScrollSpy />
+            </h1>
+            <p>Success Stories</p>
+          </div>
         </div>
       </FadeInWhenVisible>
     </div>
