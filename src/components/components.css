@@ -227,7 +227,7 @@ html {
   margin: 0.5em 1em;
   padding: 0.5em 0.5em 0 0;
   font-size: larger;
-  width: 75vw;
+  width: 70vw;
   border: none;
   border-bottom: green solid 2px;
 }
@@ -726,14 +726,14 @@ html {
     background-color: white;
     border-radius: 10px;
     /* padding: 4em 2em; */
-    margin: 2em 0em;
+    margin: 2em 3em;
     box-shadow: 2px 2px 20px grey;
   }
 
   .UploadForm>form>input {
     margin: 0.5em 1em;
     font-size: larger;
-    width: 25vw;
+    width: 70vw;
     border: none;
     border-bottom: green solid 2px;
   }
@@ -744,6 +744,7 @@ html {
     padding: 2em .5em;
     margin: 3em 5em;
   }
+
 }
 
 /* desktops */
@@ -771,6 +772,14 @@ html {
     padding: 2em;
     margin: 1em;
     box-shadow: 2px 2px 20px grey;
+  }
+
+  .UploadForm>form>input {
+    margin: 0.5em 1em;
+    font-size: larger;
+    width: 26vw;
+    border: none;
+    border-bottom: green solid 2px;
   }
 
   .Herotext>button {
@@ -804,7 +813,7 @@ html {
   }
 
   .Upload>form>input {
-    width: 70vw;
+    width: 65vw;
   }
 
   .backgroundWhite {

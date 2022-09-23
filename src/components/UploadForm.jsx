@@ -75,9 +75,7 @@ function UploadForm() {
           onChange={(e) => setSubject(e.target.value)}
         />{" "}
         <br /> <br />
-        <Link to="/upload">
-          Get Help
-        </Link>
+        <Link to="/upload">Get Help</Link>
       </form>
     </div>
   );

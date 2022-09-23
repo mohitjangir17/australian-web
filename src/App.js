@@ -15,7 +15,7 @@ function App() {
       <div className="App">
         <Header />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/australian-web">
             <Home />
           </Route>
           <Route exact path="/blogs">
@@ -32,6 +32,7 @@ function App() {
           </Route>
         </Switch>
         <Footer />
+        {/* <Comm100 /> */}
       </div>
     </Router>
   );
