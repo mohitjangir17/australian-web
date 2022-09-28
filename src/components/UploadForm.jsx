@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import "./components.css";
+import "../styles/uploadform.css";
 import { Link } from "react-router-dom";
 
 function routeToUpload(e) {

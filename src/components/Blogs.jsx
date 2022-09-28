@@ -1,4 +1,4 @@
-import "./components.css";
+import "../styles/blogs.css";
 import codingguy from "./resources/coding-g03bcc4bcb_1280.jpg";
 import { Link } from "react-router-dom";
 
@@ -72,7 +72,6 @@ function Blogs() {
             </div>
           </div>
         </Link>
-        
       </div>
     </div>
   );

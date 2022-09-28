@@ -1,0 +1,81 @@
+.Blogs {
+  background-color: white;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.Blogs h2 {
+  font-size: xxx-large;
+}
+
+.blogsList {
+  background-color: rgb(246, 246, 246);
+  border-radius: 10px;
+  margin: 1em;
+  transition: 0.4s;
+}
+
+.blogsList:hover {
+  cursor: pointer;
+  transform: scale(1.009);
+  transition: 0.4s;
+  box-shadow: grey 2px 2px 20px;
+}
+
+.blogsList img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.blogsList h3 {
+  margin: 1em;
+  text-align: left;
+  transition: 0.4s;
+}
+
+.blogsList h3:hover {
+  color: green;
+  transition: 0.4s;
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+}
+
+.blogsList p {
+  margin: 1em;
+  text-align: left;
+}
+
+.blogInfo {
+  display: flex;
+  text-align: left;
+  font-weight: 700;
+  padding-bottom: 2em;
+}
+
+@media only screen and (min-width: 600px) {
+  blogsContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .blogsContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0.1em;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .blogsContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 2em;
+  }
+}
+@media only screen and (min-width: 1300px) {
+}

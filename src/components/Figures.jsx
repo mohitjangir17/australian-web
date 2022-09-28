@@ -1,4 +1,4 @@
-import "./components.css";
+import "../styles/figures.css";
 import bookicon from "./resources/book-logo.png";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";

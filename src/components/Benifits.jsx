@@ -1,11 +1,9 @@
-import "./components.css";
+import "../styles/benifits.css";
 import bookicon from "./resources/book-logo.png";
 
 function Benifits() {
   return (
-    <div
-      className="Benifits"
-    >
+    <div className="Benifits">
       <div className="benifits-img">
         {" "}
         {/* <img src={womanImg} alt="" />{" "} */}

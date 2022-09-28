@@ -1,4 +1,4 @@
-import "./components.css";
+import "../styles/courses.css";
 import logo from "./resources/logo192.png";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";

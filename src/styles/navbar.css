@@ -1,0 +1,166 @@
+.Navbar {
+  background-color: rgb(240, 255, 255, 0.5);
+  margin: 1em;
+}
+
+.Navbar > nav > a {
+  margin: 1em 2em;
+}
+.Navbar {
+  padding: 1em;
+  background-color: rgb(240, 255, 255, 0.5);
+}
+
+.desktop-Navbar {
+  display: none;
+}
+
+.mobile-Navbar p {
+  color: white;
+  font-size: large;
+  margin-left: 1em;
+  width: fit-content;
+  transition: 0.7s;
+}
+
+.mobile-Navbar p:hover {
+  cursor: pointer;
+  color: green;
+  transition: 0.7s;
+  transform: scale(1.1);
+}
+
+.mobile-Navbar > span {
+  display: block;
+  position: relative;
+  animation: navSlider 0.7s forwards;
+}
+
+.navlist > a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  margin: 2em;
+  transition: 0.7s;
+}
+
+.navlist > a:hover {
+  transition: 0.7s;
+  color: green;
+}
+
+.Navbar > nav > a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  margin: 2em;
+  text-decoration: none;
+  color: white;
+  transition: 0.7s;
+  font-size: large;
+}
+
+.Navbar > nav > a:hover {
+  transition: 0.7s;
+  color: green;
+}
+@-moz-keyframes navSlider {
+  0% {
+    bottom: 50px;
+    opacity: 0;
+  }
+
+  100% {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+
+@-o-keyframes navSlider {
+  0% {
+    bottom: 50px;
+    opacity: 0;
+  }
+
+  100% {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes navSlider {
+  0% {
+    bottom: 50px;
+    opacity: 0;
+  }
+
+  100% {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .Navbar {
+    padding: 1em;
+    background-color: rgb(240, 255, 255, 0.5);
+    font-size: large;
+  }
+
+  .desktop-Navbar {
+    display: none;
+  }
+
+  .mobile-Navbar {
+    display: block;
+  }
+
+  .navlist > a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    margin: 2em;
+  }
+
+  .mobile-Navbar > nav > a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    margin: 2em;
+  }
+
+  .Navbar > nav > a {
+    text-decoration: none;
+    color: white;
+  }
+  @-webkit-keyframes navSlider {
+    0% {
+      bottom: 50px;
+      opacity: 0;
+    }
+
+    100% {
+      bottom: 0px;
+      opacity: 1;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .desktop-Navbar {
+    display: flex;
+  }
+
+  .mobile-Navbar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+}
+@media only screen and (min-width: 1300px) {
+}

@@ -1,4 +1,4 @@
-import "./components.css";
+import "../styles/footer.css";
 import logo from "./resources/logo192.png";
 import facebooklogo from "../components/resources/facebook logo.png";
 import instalogo from "../components/resources/instagram.svg";

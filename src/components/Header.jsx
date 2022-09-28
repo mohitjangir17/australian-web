@@ -1,8 +1,7 @@
-import "../components/components.css";
+import "../styles/header.css";
 import Herotext from "./Herotext";
 import LogoSection from "./LogoSection";
 import Navbar from "./Navbar";
-// import bannerImg from "./resources/open-book.jpg";
 
 function Header() {
   return (

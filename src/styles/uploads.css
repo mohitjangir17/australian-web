@@ -1,0 +1,122 @@
+.Upload {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Upload form {
+  position: relative;
+  width: 87vw;
+  z-index: 1;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2em 0.5em;
+  margin: 3em 0em;
+  box-shadow: 2px 2px 20px grey;
+}
+
+.Upload > form > label {
+  color: green;
+  font-weight: 500;
+  font-size: larger;
+  margin: 0.5em 1em;
+}
+
+.Upload > form > input {
+  margin: 0.5em 1em;
+  padding: 0.5em 0.5em 0 0;
+  font-size: larger;
+  width: 75vw;
+  border: none;
+  border-bottom: green solid 2px;
+}
+
+.Upload > form > input:focus {
+  outline: none;
+}
+
+.Upload > form > a {
+  padding: 0.7em 2em;
+  font-weight: 600;
+  margin: 0.4em 1em;
+  font-size: large;
+  background-color: white;
+  border: grey 2px solid;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.Upload > form > a:hover {
+  border: none;
+  background-color: green;
+  box-shadow: 2px 2px 20px grey;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+  border: grey solid 2px;
+}
+
+.Upload > form > button {
+  padding: 1em 2em;
+  margin: 1em;
+  font-weight: 600;
+  font-size: large;
+  border: none;
+  width: max-content;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.Upload > form > button:hover {
+  border: none;
+  background-color: green;
+  box-shadow: 2px 2px 20px grey;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+@media only screen and (min-width: 600px) {
+  .Upload form {
+    position: relative;
+    /* width: 74%; */
+    padding: 2em 0.5em;
+    margin: 3em 5em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Upload form {
+    position: relative;
+    width: 75%;
+    padding: 2em 0.5em;
+    margin: 4em 6em;
+  }
+
+  .Upload > form > input {
+    width: 65vw;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .Upload form {
+    position: relative;
+    /* width: 65%; */
+    padding: 2em 0.5em;
+    margin: 5em 10em;
+  }
+
+  .Upload > form > input {
+    width: 70vw;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .Upload form {
+    position: relative;
+    width: 75%;
+    padding: 2em 0.5em;
+    margin: 7em 11em;
+  }
+}
