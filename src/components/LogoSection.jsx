@@ -1,4 +1,4 @@
-import "../components/components.css";
+import "../styles/logosection.css";
 import logo from "../components/resources/logo192.png";
 import facebooklogo from "../components/resources/facebook logo.png";
 import instalogo from "../components/resources/instagram.svg";

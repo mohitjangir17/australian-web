@@ -1,4 +1,4 @@
-import "../components/components.css";
+import "../styles/navbar.css";
 import React, { useState } from "react";
 import ToggleDisplay from "react-toggle-display";
 import { Link } from "react-router-dom";

@@ -1,0 +1,80 @@
+.Benifits {
+  display: flex;
+  z-index: 1;
+  background-color: white;
+  padding: 1em;
+}
+
+.benifits-img {
+  display: none;
+}
+
+.benifits-content {
+  padding: 0.2em;
+}
+
+.benifits-content span {
+  color: green;
+  font-weight: 700;
+}
+
+.benifits-content > div {
+  display: flex;
+}
+
+.benifits-content img {
+  margin: 2em 0.5em;
+  width: 50px;
+  height: 50px;
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 960px) {
+  .Benifits {
+    display: flex;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .benifits-img {
+    background-image: url(../components/resources/woman.jpg);
+    display: block;
+    width: 90%;
+    height: auto;
+    z-index: 1;
+    background-position: center;
+  }
+
+  .Benifits {
+    display: flex;
+    z-index: 1;
+    background-color: white;
+    padding: 1em;
+  }
+
+  .benifits-content {
+    padding: 3em;
+  }
+
+  .benifits-content span {
+    color: green;
+    font-weight: 700;
+  }
+
+  .benifits-content > div {
+    display: flex;
+  }
+
+  .benifits-content img {
+    margin: 2em;
+    width: 50px;
+    height: 50px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+}

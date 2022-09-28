@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "../styles/uploads.css";
 
 function Upload() {
   const [firstname, setFirstname] = useState("");

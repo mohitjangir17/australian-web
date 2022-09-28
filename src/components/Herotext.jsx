@@ -1,4 +1,4 @@
-import "../components/components.css";
+import "../styles/herotext.css";
 import { motion } from "framer-motion";
 
 function Herotext() {
@@ -16,12 +16,12 @@ function Herotext() {
       <p className="textSpan">Welcome text ....</p>
       <h1 className="heroHeading">
         A Platform Where You Find Best Assignment Related Solutions
-      </h1> 
+      </h1>
       <p>
         Far far away, behind the word mountains, far from the countries Vokalia
         and Consonantia, there live the blind texts..
       </p>
-      <button>Upload Your Assignmet</button>
+      {/* <button>Upload Your Assignmet</button> */}
     </motion.div>
   );
 }
