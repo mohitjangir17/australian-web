@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/australian-web/static/css/main.ef1705b3.css",
-    "main.js": "/australian-web/static/js/main.8661d90a.js",
+    "main.css": "/australian-web/static/css/main.0ee5c614.css",
+    "main.js": "/australian-web/static/js/main.e8648adc.js",
     "static/js/787.83253f8e.chunk.js": "/australian-web/static/js/787.83253f8e.chunk.js",
     "static/media/books-figure-section.jpg": "/australian-web/static/media/books-figure-section.a1164922a656218885b3.jpg",
-    "static/media/open-book.jpg": "/australian-web/static/media/open-book.c2ef451923b256f5208a.jpg",
     "static/media/woman.jpg": "/australian-web/static/media/woman.9a48705483cf8ce69791.jpg",
+    "static/media/open-book.jpg": "/australian-web/static/media/open-book.6b8641dedf179ddcad0f.jpg",
     "static/media/coding-g03bcc4bcb_1280.jpg": "/australian-web/static/media/coding-g03bcc4bcb_1280.d2ebe7118500aa87c0e6.jpg",
     "static/media/arrow.png": "/australian-web/static/media/arrow.b7b28f255b01123932ae.png",
     "static/media/revicons.eot": "/australian-web/static/media/revicons.a77de540a38981833f9e.eot",
@@ -14,12 +14,12 @@
     "static/media/revicons.woff": "/australian-web/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/instagram.svg": "/australian-web/static/media/instagram.787b1447c6450bcdbb2fdcba9c894a7f.svg",
     "index.html": "/australian-web/index.html",
-    "main.ef1705b3.css.map": "/australian-web/static/css/main.ef1705b3.css.map",
-    "main.8661d90a.js.map": "/australian-web/static/js/main.8661d90a.js.map",
+    "main.0ee5c614.css.map": "/australian-web/static/css/main.0ee5c614.css.map",
+    "main.e8648adc.js.map": "/australian-web/static/js/main.e8648adc.js.map",
     "787.83253f8e.chunk.js.map": "/australian-web/static/js/787.83253f8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef1705b3.css",
-    "static/js/main.8661d90a.js"
+    "static/css/main.0ee5c614.css",
+    "static/js/main.e8648adc.js"
   ]
 }
