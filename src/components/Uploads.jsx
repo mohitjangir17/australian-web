@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+// import "../styles/uploads.css";
 import "../styles/uploads.css";
 
 function Upload() {

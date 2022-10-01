@@ -1,17 +1,9 @@
-.Figures {
-  background: url(../components/resources/books-figure-section.jpg),
-    rgba(0, 0, 0, 0.2);
-  background-blend-mode: darken;
-  padding: 3em;
-  color: white;
-  grid-template-columns: auto auto auto auto;
-}
-
 .figuresData {
   display: flex;
   justify-content: center;
   margin: 1em;
 }
+
 .Figures {
   background: url(../components/resources/books-figure-section.jpg),
     rgba(0, 0, 0, 0.2);
@@ -22,7 +14,6 @@
 
 .figuresData {
   display: flex;
-  /* justify-content: center; */
   margin: 1em;
 }
 
@@ -60,10 +51,36 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
-}
+@media only screen and (min-width: 768px) {}
 
 @media only screen and (min-width: 960px) {
+  .Figures {
+    background: url(../components/resources/books-figure-section.jpg),
+      rgba(0, 0, 0, 0.2);
+    background-blend-mode: darken;
+    padding: 1em 0em;
+    color: white;
+    grid-template-columns: auto auto auto;
+  }
+
+  .figuresData {
+    display: flex;
+    margin: 1em .5em;
+  }
 }
+
 @media only screen and (min-width: 1300px) {
+  .Figures {
+    background: url(../components/resources/books-figure-section.jpg),
+      rgba(0, 0, 0, 0.2);
+    background-blend-mode: darken;
+    padding: 2em 0;
+    color: white;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .figuresData {
+    display: flex;
+    margin: 1em .5em;
+  }
 }

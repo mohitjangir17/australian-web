@@ -15,6 +15,15 @@
   transition: 0.4s;
   transform: scale(1.2);
 }
+.poster {
+  display: flex;
+  padding: 1em 2em;
+}
+
+.poster > a > img {
+  width: 50px;
+  height: 50px;
+}
 @media only screen and (min-width: 600px) {
 }
 
@@ -30,6 +39,16 @@
     width: 50px;
     height: 50px;
     transition: 0.4s;
+  }
+  .poster {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 6em;
+  }
+
+  .poster > a > img {
+    width: 50px;
+    height: 50px;
   }
 }
 @media only screen and (min-width: 1300px) {

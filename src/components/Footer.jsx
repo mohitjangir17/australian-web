@@ -11,8 +11,8 @@ function Footer() {
       <div className="footer-columns">
         <img className="footerLogo" src={logo} alt="" />
         <p>
-          A small river named Duden flows by their place and supplies it
-          <br /> with the necessary regelialia.
+          A small river named Duden flows by their place <br />
+          and supplies it with the necessary regelialia.
         </p>
 
         <div className="footer-social-icons">

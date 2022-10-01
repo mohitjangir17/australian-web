@@ -13,7 +13,7 @@ function Herotext() {
         ease: [0, 0.71, 0.2, 1.01],
       }}
     >
-      <p className="textSpan">Welcome text ....</p>
+      <p className="textSpan">Welcome text</p>
       <h1 className="heroHeading">
         A Platform Where You Find Best Assignment Related Solutions
       </h1>

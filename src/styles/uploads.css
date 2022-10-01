@@ -1,76 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
 .Upload {
   background-color: white;
-  width: 100%;
+  padding: 4em 0;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 }
 
-.Upload form {
-  position: relative;
-  width: 87vw;
-  z-index: 1;
+form {
+  width: 90%;
+  border-radius: 5px;
+  padding: 1.5em;
   background-color: white;
   border-radius: 10px;
-  padding: 2em 0.5em;
-  margin: 3em 0em;
-  box-shadow: 2px 2px 20px grey;
+  box-shadow: 2px 2px 15px grey;
 }
 
-.Upload > form > label {
-  color: green;
-  font-weight: 500;
+input {
+  width: 100%;
+  padding: 12px 0;
   font-size: larger;
-  margin: 0.5em 1em;
-}
-
-.Upload > form > input {
-  margin: 0.5em 1em;
-  padding: 0.5em 0.5em 0 0;
-  font-size: larger;
-  width: 75vw;
   border: none;
   border-bottom: green solid 2px;
 }
 
-.Upload > form > input:focus {
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: green;
+  font-weight: 500;
+  font-size: larger;
+}
+
+input:focus {
   outline: none;
 }
 
-.Upload > form > a {
-  padding: 0.7em 2em;
-  font-weight: 600;
-  margin: 0.4em 1em;
-  font-size: large;
-  background-color: white;
-  border: grey 2px solid;
-  text-decoration: none;
-  color: black;
-  border-radius: 5px;
-  transition: 0.5s;
-}
-
-.Upload > form > a:hover {
-  border: none;
-  background-color: green;
-  box-shadow: 2px 2px 20px grey;
-  color: white;
-  transition: 0.5s;
-  cursor: pointer;
-  border: grey solid 2px;
-}
-
-.Upload > form > button {
+.Upload>form>button {
   padding: 1em 2em;
-  margin: 1em;
+  margin: 1em 0;
   font-weight: 600;
   font-size: large;
   border: none;
-  width: max-content;
+  width: 100%;
   border-radius: 5px;
   transition: 0.5s;
 }
 
-.Upload > form > button:hover {
+.Upload>form>button:hover {
   border: none;
   background-color: green;
   box-shadow: 2px 2px 20px grey;
@@ -78,45 +58,46 @@
   transition: 0.5s;
   cursor: pointer;
 }
+
 @media only screen and (min-width: 600px) {
-  .Upload form {
-    position: relative;
-    /* width: 74%; */
-    padding: 2em 0.5em;
-    margin: 3em 5em;
+  .Upload {
+    padding: 6em 0;
+  }
+
+  form {
+    width: 70%;
+    padding: 3em;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .Upload form {
-    position: relative;
-    width: 75%;
-    padding: 2em 0.5em;
-    margin: 4em 6em;
+  .Upload {
+    padding: 8em 0;
   }
 
-  .Upload > form > input {
-    width: 65vw;
+  form {
+    width: 70%;
+  }
+
+  .Upload>form>button {
+    width: max-content;
+    border-radius: 5px;
+    transition: 0.5s;
   }
 }
 
 @media only screen and (min-width: 960px) {
-  .Upload form {
-    position: relative;
-    /* width: 65%; */
-    padding: 2em 0.5em;
-    margin: 5em 10em;
+  .Upload {
+    padding: 8em 0;
   }
 
-  .Upload > form > input {
-    width: 70vw;
+  form {
+    width: 70%;
   }
 }
+
 @media only screen and (min-width: 1300px) {
-  .Upload form {
-    position: relative;
-    width: 75%;
-    padding: 2em 0.5em;
-    margin: 7em 11em;
+  form {
+    width: 70%;
   }
 }

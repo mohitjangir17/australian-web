@@ -18,8 +18,6 @@ function Blogs() {
               with the necessary regelialia.
             </p>
             <div className="blogInfo">
-              <p>Admin</p>
-              <p>Comments</p>
               <p>Date</p>
             </div>
           </div>
@@ -34,8 +32,6 @@ function Blogs() {
               with the necessary regelialia.
             </p>
             <div className="blogInfo">
-              <p>Admin</p>
-              <p>Comments</p>
               <p>Date</p>
             </div>
           </div>
@@ -50,8 +46,6 @@ function Blogs() {
               with the necessary regelialia.
             </p>
             <div className="blogInfo">
-              <p>Admin</p>
-              <p>Comments</p>
               <p>Date</p>
             </div>
           </div>
@@ -66,8 +60,6 @@ function Blogs() {
               with the necessary regelialia.
             </p>
             <div className="blogInfo">
-              <p>Admin</p>
-              <p>Comments</p>
               <p>Date</p>
             </div>
           </div>

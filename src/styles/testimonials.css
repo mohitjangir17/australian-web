@@ -22,7 +22,7 @@
   padding: 0em;
 }
 
-.testimonials_container:hover {
+.testimonials_list div:hover {
   cursor: grab;
 }
 
@@ -41,6 +41,11 @@
 .testimonials_list div span p {
   color: green;
 }
+
+.reviewDescription {
+  margin: -0.5em 1em;
+}
+
 @media only screen and (min-width: 600px) {
   .testimonials_container {
     display: grid;
@@ -55,8 +60,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
-}
+@media only screen and (min-width: 768px) {}
 
 @media only screen and (min-width: 960px) {
   .testimonials_container {
@@ -71,5 +75,5 @@
     padding: 1em 0.2em 3em 0.2em;
   }
 }
-@media only screen and (min-width: 1300px) {
-}
+
+@media only screen and (min-width: 1300px) {}

@@ -1,36 +1,23 @@
-.Herotext > button {
+.Herotext>button {
   width: auto;
   padding: 1em 2em;
 }
 
-.Herotext {
-  margin: 3em 6em;
-  width: 90vw;
-}
-
-.Herotext > h1 {
+.Herotext>h1 {
   font-weight: 600;
   color: #fff;
   font-size: 40px;
   line-height: 1.2;
   margin-bottom: 1em;
-  width: 40%;
 }
+
 .Herotext {
   display: block;
   color: white;
   margin: 3em 1em 1em 1em;
-  width: 95vw;
 }
 
-.Herotext > h1 {
-  font-weight: 600;
-  color: #fff;
-  font-size: 40px;
-  line-height: 1.2;
-}
-
-.Herotext > p {
+.Herotext>p {
   font-weight: 700;
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
@@ -38,13 +25,14 @@
   letter-spacing: 2px;
   margin-bottom: 3em;
   font-family: inherit;
-  width: 40%;
 }
-.Herotext > button {
+
+.Herotext>button {
   width: auto;
   padding: 1em 2em;
 }
-.Herotext > button {
+
+.Herotext>button {
   padding: 1em 2em;
   font-weight: 600;
   font-size: large;
@@ -54,7 +42,7 @@
   transition: 0.5s;
 }
 
-.Herotext > button:hover {
+.Herotext>button:hover {
   border: none;
   background-color: green;
   box-shadow: 2px 2px 20px grey;
@@ -63,30 +51,6 @@
   cursor: pointer;
 }
 
-.Herotext {
-  margin: 3em 6em;
-  width: 90vw;
-}
-
-.Herotext > h1 {
-  font-weight: 600;
-  color: #fff;
-  font-size: 40px;
-  line-height: 1.2;
-  margin-bottom: 1em;
-  width: 45%;
-}
-
-.Herotext > p {
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
-  display: block;
-  letter-spacing: 2px;
-  margin-bottom: 3em;
-  font-family: inherit;
-  width: 45%;
-}
 .textSpan {
   font-weight: 700;
   color: rgba(255, 255, 255, 0.7);
@@ -97,16 +61,96 @@
   position: relative;
   z-index: 0;
 }
+
 @media only screen and (min-width: 600px) {
-  .Herotext > button {
+  .Herotext>button {
     width: 95vw;
   }
 }
 
 @media only screen and (min-width: 768px) {
+  .Herotext>h1 {
+    font-weight: 600;
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 1em;
+    width: 55%;
+  }
+
+  .Herotext {
+    display: block;
+    color: white;
+    margin: 3em 1em 1em 1em;
+  }
+
+  .Herotext>p {
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    display: block;
+    letter-spacing: 2px;
+    margin-bottom: 3em;
+    font-family: inherit;
+    width: 55%;
+    margin-bottom: 12em;
+  }
 }
 
 @media only screen and (min-width: 960px) {
+  .Herotext {
+    display: block;
+    color: white;
+    margin: 3em 1em 3em 5em;
+  }
+
+  .Herotext>h1 {
+    font-weight: 600;
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 1em;
+    width: 50%;
+  }
+
+  .Herotext>p {
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    display: block;
+    letter-spacing: 2px;
+    margin-bottom: 12em;
+    font-family: inherit;
+    width: 50%;
+  }
 }
+
 @media only screen and (min-width: 1300px) {
+  .Herotext {
+    display: block;
+    color: white;
+    margin: 3em 1em 3em 6em;
+    /* width: 95vw; */
+  }
+
+  .Herotext>h1 {
+    font-weight: 600;
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 3em;
+    width: 45%;
+  }
+
+  .Herotext>p {
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    display: block;
+    letter-spacing: 2px;
+    margin-bottom: 10em;
+    font-family: inherit;
+    width: 45%;
+    margin-bottom: 12em;
+  }
 }
