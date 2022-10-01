@@ -1,169 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
 .UploadForm {
+  background-color: white;
+  padding: 4em 0;
   display: flex;
-  z-index: 1;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.UploadForm form {
+  width: 90%;
+  border-radius: 5px;
+  padding: 1.5em;
   background-color: white;
   border-radius: 10px;
-  padding: 2em 1em;
-  margin: 3em 1em;
-  box-shadow: 2px 2px 20px grey;
+  box-shadow: 2px 2px 15px grey;
 }
 
-.UploadForm > form > label {
-  color: green;
-  font-weight: 500;
-  font-size: larger;
-  margin: 0.5em 1em;
-  width: 100vw;
+.UploadForm>form>input:focus {
+  outline: none;
 }
 
-.UploadForm > form > input {
-  margin: 0.5em 1em;
-  padding: 0.5em 0.5em 0 0;
+input {
+  width: 100%;
+  padding: 12px 0;
   font-size: larger;
-  width: 70vw;
   border: none;
   border-bottom: green solid 2px;
 }
 
-.UploadForm > form > input:focus {
-  outline: none;
-}
-
-.UploadForm > form > a {
-  padding: 0.7em 2em;
+.UploadForm>form>button {
+  padding: 1em 2em;
+  margin: 1em 0;
   font-weight: 600;
-  margin: 0.4em 1em;
   font-size: large;
-  background-color: white;
-  border: grey 2px solid;
-  text-decoration: none;
-  color: black;
+  border: none;
+  width: 100%;
   border-radius: 5px;
   transition: 0.5s;
 }
 
-.UploadForm > form > a:hover {
+.UploadForm>form>button:hover {
   border: none;
   background-color: green;
   box-shadow: 2px 2px 20px grey;
   color: white;
   transition: 0.5s;
   cursor: pointer;
-  border: grey solid 2px;
 }
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: green;
+  font-weight: 500;
+  font-size: larger;
+}
+
 @media only screen and (min-width: 600px) {
   .UploadForm {
-    display: flex;
-    z-index: 1;
     background-color: white;
-    border-radius: 10px;
-    /* padding: 4em 2em; */
-    margin: 2em 3em;
-    box-shadow: 2px 2px 20px grey;
+    padding: 4em 0;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
   }
 
-  .UploadForm > form > input {
-    margin: 0.5em 1em;
+  input {
+    width: 100%;
+    padding: 12px 0;
     font-size: larger;
-    width: 70vw;
     border: none;
     border-bottom: green solid 2px;
   }
 }
 
 @media only screen and (min-width: 768px) {
+
   .UploadForm {
     position: absolute;
-    top: 15em;
+    top: 20em;
     right: 1em;
-    width: 30vw;
-    background-color: white;
+    width: 40vw;
+    padding: 0;
+    margin: 0;
+    background-color: none;
     border-radius: 10px;
-    padding: 2em;
-    margin: 1em;
-    box-shadow: 2px 2px 20px grey;
   }
 
-  .UploadForm > form > input {
-    margin: 0.5em 1em;
-    font-size: larger;
-    width: 26vw;
-    border: none;
-    border-bottom: green solid 2px;
+  .UploadForm form {
+    width: 100%;
+    border-radius: 5px;
+    padding: 1.5em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px grey;
   }
 }
 
 @media only screen and (min-width: 960px) {
   .UploadForm {
     position: absolute;
-    top: 15em;
+    top: 20em;
     right: 5em;
-    width: 30%;
-    z-index: 1;
+    width: 35vw;
+    padding: 0;
+    margin: 0;
+    background-color: none;
+    border-radius: 10px;
+  }
+
+  .UploadForm form {
+    width: 100%;
+    border-radius: 5px;
+    padding: 1.5em;
     background-color: white;
     border-radius: 10px;
-    padding: 2em;
-    margin: 1em;
-    box-shadow: 2px 2px 20px grey;
-  }
-
-  .UploadForm > form > label {
-    color: green;
-    font-weight: 500;
-    font-size: larger;
-    margin: 0.5em 1em;
-  }
-
-  .UploadForm > form > input {
-    margin: 0.5em 1em;
-    padding: 0.5em 0.5em 0 0;
-    font-size: larger;
-    width: 25vw;
-  }
-
-  .UploadForm > form > input:focus {
-    outline: none;
-  }
-
-  .UploadForm > form > button {
-    padding: 1em 2em;
-    font-weight: 600;
-    margin: 0.4em 1em;
-    font-size: large;
-    background-color: white;
-    border: grey 2px solid;
-    width: max-content;
-    border-radius: 5px;
-    transition: 0.5s;
+    box-shadow: 2px 2px 15px grey;
   }
 }
+
 @media only screen and (min-width: 1300px) {
   .UploadForm {
     position: absolute;
-    top: 15em;
-    right: 10em;
+    top: 20em;
+    right: 6em;
+    width: 30vw;
+    padding: 0;
+    margin: 0;
+    background-color: none;
+    border-radius: 10px;
   }
 
-  .UploadForm > form > label {
-    font-weight: 500;
-    font-size: larger;
-    margin: 0.5em 1em;
-  }
-
-  .UploadForm > form > input {
-    font-size: larger;
-    width: 28vw;
-  }
-
-  .UploadForm > form > button {
-    padding: 1em 2em;
-    font-weight: 600;
-    margin: 0.4em 1em;
-    font-size: large;
-    background-color: white;
-    border: grey 2px solid;
-    width: max-content;
+  .UploadForm form {
+    width: 100%;
     border-radius: 5px;
-    transition: 0.5s;
+    padding: 1.5em;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px grey;
   }
 }

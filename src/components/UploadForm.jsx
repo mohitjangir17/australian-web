@@ -38,7 +38,10 @@ function UploadForm() {
   }, [firstname, lastname, email, subject, storage]);
   return (
     <div className="UploadForm">
-      <form action="" method="post">
+      <form
+        action="/upload"
+        // method="post"
+      >
         <label htmlFor="fistname">Firstname</label> <br />
         <input
           type="text"
@@ -75,7 +78,8 @@ function UploadForm() {
           onChange={(e) => setSubject(e.target.value)}
         />{" "}
         <br /> <br />
-        <Link to="/upload">Get Help</Link>
+        {/* <Link to="/upload">Get Help</Link> */}
+        <button type="submit">Get Help</button>
       </form>
     </div>
   );

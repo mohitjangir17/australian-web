@@ -1,11 +1,13 @@
 .Navbar {
   background-color: rgb(240, 255, 255, 0.5);
   margin: 1em;
+  border-radius: 10px;
 }
 
-.Navbar > nav > a {
+.Navbar>nav>a {
   margin: 1em 2em;
 }
+
 .Navbar {
   padding: 1em;
   background-color: rgb(240, 255, 255, 0.5);
@@ -30,13 +32,13 @@
   transform: scale(1.1);
 }
 
-.mobile-Navbar > span {
+.mobile-Navbar>span {
   display: block;
   position: relative;
   animation: navSlider 0.7s forwards;
 }
 
-.navlist > a {
+.navlist>a {
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -45,12 +47,12 @@
   transition: 0.7s;
 }
 
-.navlist > a:hover {
+.navlist>a:hover {
   transition: 0.7s;
   color: green;
 }
 
-.Navbar > nav > a {
+.Navbar>nav>a {
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -62,10 +64,11 @@
   font-size: large;
 }
 
-.Navbar > nav > a:hover {
+.Navbar>nav>a:hover {
   transition: 0.7s;
   color: green;
 }
+
 @-moz-keyframes navSlider {
   0% {
     bottom: 50px;
@@ -117,7 +120,7 @@
     display: block;
   }
 
-  .navlist > a {
+  .navlist>a {
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -125,7 +128,7 @@
     margin: 2em;
   }
 
-  .mobile-Navbar > nav > a {
+  .mobile-Navbar>nav>a {
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -133,10 +136,11 @@
     margin: 2em;
   }
 
-  .Navbar > nav > a {
+  .Navbar>nav>a {
     text-decoration: none;
     color: white;
   }
+
   @-webkit-keyframes navSlider {
     0% {
       bottom: 50px;
@@ -161,6 +165,15 @@
 }
 
 @media only screen and (min-width: 960px) {
+  .Navbar {
+    background-color: rgb(240, 255, 255, 0.5);
+    margin: 1em 4em;
+  }
 }
+
 @media only screen and (min-width: 1300px) {
+  .Navbar {
+    background-color: rgb(240, 255, 255, 0.5);
+    margin: 1em 5em;
+  }
 }

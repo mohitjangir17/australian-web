@@ -1,15 +1,13 @@
 .Footer {
-  padding: 0.5em;
-  background-color: whitesmoke;
-  display: flex;
-  flex-direction: column;
+  padding: 1em;
+  background-color: rgb(230, 230, 230);
 }
 
 .footer-columns {
-  margin: 0.5em 2em;
+  margin: 0.5em 0em;
 }
 
-.footer-social-icons > a > img {
+.footer-social-icons>a>img {
   height: 50px;
   width: 50px;
   margin: 0.5em;
@@ -27,67 +25,89 @@
   flex-direction: column;
 }
 
-.exploreLinks > a {
+.exploreLinks>a {
   margin-top: 0.5em;
   text-decoration: none;
   color: black;
   transition: 0.7s;
 }
 
-.exploreLinks > a:hover {
+.exploreLinks>a:hover {
   color: green;
   transition: 0.7s;
   scale: 1.03;
 }
 
-.linksCol > a {
+.linksCol>a {
   margin-top: 0.5em;
   text-decoration: none;
   color: black;
   transition: 0.7s;
 }
 
-.linksCol > a:hover {
+.linksCol>a:hover {
   color: green;
   transition: 0.7s;
   scale: 1.03;
 }
 
-.questionsCol > a {
+.questionsCol>a {
   margin-top: 0.5em;
   text-decoration: none;
   color: black;
   transition: 0.7s;
 }
 
-.questionsCol > a:hover {
+.questionsCol>a:hover {
   color: green;
   transition: 0.7s;
   scale: 1.03;
 }
 
-.footer-social-icons > a > img:hover {
+.footer-social-icons>a>img:hover {
   cursor: pointer;
   transition: 0.4s;
   transform: scale(1.2);
 }
+
 @media only screen and (min-width: 600px) {
+  .Footer {
+    padding: 2em;
+  }
 }
 
 @media only screen and (min-width: 768px) {
+  .Footer {
+    padding: 2em;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
 }
 
 @media only screen and (min-width: 960px) {
   .Footer {
-    padding: 0.5em;
+    padding: 2em;
     background-color: whitesmoke;
     display: grid;
     grid-template-columns: auto auto auto;
   }
 
-  .footer-social-icons > a > img {
+  .footer-social-icons>a>img {
     transition: 0.4s;
   }
 }
+
 @media only screen and (min-width: 1300px) {
+  .Footer {
+    padding: 2em 4em;
+    background-color: whitesmoke;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .footer-columns {
+    margin: 0.5em;
+  }
 }
