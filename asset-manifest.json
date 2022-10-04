@@ -1,9 +1,15 @@
 {
   "files": {
-    "main.css": "/australian-web/static/css/main.964eb4f0.css",
-    "main.js": "/australian-web/static/js/main.86d1c9b8.js",
+    "main.css": "/australian-web/static/css/main.a215247e.css",
+    "main.js": "/australian-web/static/js/main.83de6ca9.js",
     "static/js/787.83253f8e.chunk.js": "/australian-web/static/js/787.83253f8e.chunk.js",
     "static/media/counter_banner.jpg": "/australian-web/static/media/counter_banner.a554980ce967d97d1d95.jpg",
+    "static/media/programming help.png": "/australian-web/static/media/programming help.0fb57c1f0b5269512d56.png",
+    "static/media/thesis help.png": "/australian-web/static/media/thesis help.3c09bae7afb2ca63a325.png",
+    "static/media/assignment help.png": "/australian-web/static/media/assignment help.e1a6be4a2b0cad7b17c3.png",
+    "static/media/essay help.png": "/australian-web/static/media/essay help.791b0885763633d237a9.png",
+    "static/media/dissertation help.png": "/australian-web/static/media/dissertation help.876a5444db80d14de2a8.png",
+    "static/media/exam help.png": "/australian-web/static/media/exam help.cd6d1ceb44294cf5d2d2.png",
     "static/media/girl-vector.png": "/australian-web/static/media/girl-vector.e38d632cc054be5346b9.png",
     "static/media/mainBanner.jpg": "/australian-web/static/media/mainBanner.ef5c8c033be0e8c88bdd.jpg",
     "static/media/coding-g03bcc4bcb_1280.jpg": "/australian-web/static/media/coding-g03bcc4bcb_1280.d2ebe7118500aa87c0e6.jpg",
@@ -14,12 +20,12 @@
     "static/media/revicons.woff": "/australian-web/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/instagram.svg": "/australian-web/static/media/instagram.787b1447c6450bcdbb2fdcba9c894a7f.svg",
     "index.html": "/australian-web/index.html",
-    "main.964eb4f0.css.map": "/australian-web/static/css/main.964eb4f0.css.map",
-    "main.86d1c9b8.js.map": "/australian-web/static/js/main.86d1c9b8.js.map",
+    "main.a215247e.css.map": "/australian-web/static/css/main.a215247e.css.map",
+    "main.83de6ca9.js.map": "/australian-web/static/js/main.83de6ca9.js.map",
     "787.83253f8e.chunk.js.map": "/australian-web/static/js/787.83253f8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.964eb4f0.css",
-    "static/js/main.86d1c9b8.js"
+    "static/css/main.a215247e.css",
+    "static/js/main.83de6ca9.js"
   ]
 }
