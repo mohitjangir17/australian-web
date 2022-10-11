@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/australian-web/static/css/main.332e60c1.css",
-    "main.js": "/australian-web/static/js/main.35b63e2a.js",
+    "main.css": "/australian-web/static/css/main.2b990b11.css",
+    "main.js": "/australian-web/static/js/main.23236118.js",
     "static/js/787.83253f8e.chunk.js": "/australian-web/static/js/787.83253f8e.chunk.js",
     "static/media/counter_banner.jpg": "/australian-web/static/media/counter_banner.a554980ce967d97d1d95.jpg",
     "static/media/programming help.png": "/australian-web/static/media/programming help.0fb57c1f0b5269512d56.png",
@@ -10,6 +10,7 @@
     "static/media/essay help.png": "/australian-web/static/media/essay help.791b0885763633d237a9.png",
     "static/media/dissertation help.png": "/australian-web/static/media/dissertation help.876a5444db80d14de2a8.png",
     "static/media/exam help.png": "/australian-web/static/media/exam help.cd6d1ceb44294cf5d2d2.png",
+    "static/media/logo512.png": "/australian-web/static/media/logo512.3ef9f3639ebfa6074b29.png",
     "static/media/girl-vector.png": "/australian-web/static/media/girl-vector.e38d632cc054be5346b9.png",
     "static/media/mainBanner.jpg": "/australian-web/static/media/mainBanner.ef5c8c033be0e8c88bdd.jpg",
     "static/media/coding-g03bcc4bcb_1280.jpg": "/australian-web/static/media/coding-g03bcc4bcb_1280.d2ebe7118500aa87c0e6.jpg",
@@ -18,12 +19,12 @@
     "static/media/revicons.ttf": "/australian-web/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/australian-web/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/australian-web/index.html",
-    "main.332e60c1.css.map": "/australian-web/static/css/main.332e60c1.css.map",
-    "main.35b63e2a.js.map": "/australian-web/static/js/main.35b63e2a.js.map",
+    "main.2b990b11.css.map": "/australian-web/static/css/main.2b990b11.css.map",
+    "main.23236118.js.map": "/australian-web/static/js/main.23236118.js.map",
     "787.83253f8e.chunk.js.map": "/australian-web/static/js/787.83253f8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.332e60c1.css",
-    "static/js/main.35b63e2a.js"
+    "static/css/main.2b990b11.css",
+    "static/js/main.23236118.js"
   ]
 }
