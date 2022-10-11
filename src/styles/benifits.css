@@ -14,7 +14,7 @@
 }
 
 .benifits-content span {
-  color: green;
+  color: #b78456;
   font-weight: 700;
   text-align: center;
   display: block;
@@ -44,7 +44,7 @@
   }
 
   .benifits-content span {
-    color: green;
+    color: #b78456;
     font-weight: 700;
     text-align: center;
     display: block;
@@ -71,7 +71,8 @@
   }
 
   .benifits-img {
-    background-image: url(../components/resources/woman.jpg);
+    background-image: url(../components/resources/girl-vector.png);
+    background-repeat: no-repeat;
     display: block;
     width: 90%;
     height: auto;
@@ -91,7 +92,7 @@
   }
 
   .benifits-content span {
-    color: green;
+    color: #b78456;
     font-weight: 700;
     text-align: left;
   }

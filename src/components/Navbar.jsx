@@ -2,6 +2,12 @@ import "../styles/navbar.css";
 import React, { useState } from "react";
 import ToggleDisplay from "react-toggle-display";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faTwitter,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
   const [show, setShow] = useState(false);
@@ -16,6 +22,7 @@ function Navbar() {
         <ToggleDisplay show={show}>
           <div className="navlist">
             <Link to="/australian-web">Home</Link>
+            <Link to="/upload">Upload</Link>
             <Link to="/about">About</Link>
             <Link to="/allcourses">Courses</Link>
             <Link to="/blogs">Blogs</Link>
@@ -24,6 +31,7 @@ function Navbar() {
       </nav>
       <nav className="desktop-Navbar">
         <Link to="/australian-web">Home</Link>
+        <Link to="/upload">Upload</Link>
         <Link to="/about">About</Link>
         <Link to="/allcourses">Courses</Link>
         <Link to="/blogs">Blogs</Link>

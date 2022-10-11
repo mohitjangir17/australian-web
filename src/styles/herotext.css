@@ -4,11 +4,12 @@
 }
 
 .Herotext>h1 {
-  font-weight: 600;
+  font-weight: 700;
   color: #fff;
-  font-size: 40px;
+  font-size: 45px;
   line-height: 1.2;
   margin-bottom: 1em;
+  width: 65%;
 }
 
 .Herotext {
@@ -23,7 +24,6 @@
   font-size: 14px;
   display: block;
   letter-spacing: 2px;
-  margin-bottom: 3em;
   font-family: inherit;
 }
 
@@ -44,22 +44,11 @@
 
 .Herotext>button:hover {
   border: none;
-  background-color: green;
+  background-color: #b78456;
   box-shadow: 2px 2px 20px grey;
   color: white;
   transition: 0.5s;
   cursor: pointer;
-}
-
-.textSpan {
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
-  display: inline-block;
-  letter-spacing: 2px;
-  margin-bottom: 5px;
-  position: relative;
-  z-index: 0;
 }
 
 @media only screen and (min-width: 600px) {
@@ -70,12 +59,12 @@
 
 @media only screen and (min-width: 768px) {
   .Herotext>h1 {
-    font-weight: 600;
+    font-weight: 800;
     color: #fff;
-    font-size: 40px;
+    font-size: 50px;
     line-height: 1.2;
     margin-bottom: 1em;
-    width: 55%;
+    width: 50%;
   }
 
   .Herotext {
@@ -90,10 +79,8 @@
     font-size: 14px;
     display: block;
     letter-spacing: 2px;
-    margin-bottom: 3em;
     font-family: inherit;
-    width: 55%;
-    margin-bottom: 12em;
+    width: 50%;
   }
 }
 
@@ -105,9 +92,9 @@
   }
 
   .Herotext>h1 {
-    font-weight: 600;
+    font-weight: 700;
     color: #fff;
-    font-size: 40px;
+    font-size: 60px;
     line-height: 1.2;
     margin-bottom: 1em;
     width: 50%;
@@ -119,7 +106,6 @@
     font-size: 14px;
     display: block;
     letter-spacing: 2px;
-    margin-bottom: 12em;
     font-family: inherit;
     width: 50%;
   }
@@ -134,12 +120,11 @@
   }
 
   .Herotext>h1 {
-    font-weight: 600;
+    font-weight: 800;
     color: #fff;
-    font-size: 40px;
+    font-size: 70px;
     line-height: 1.2;
-    margin-bottom: 3em;
-    width: 45%;
+    width: 55%;
   }
 
   .Herotext>p {
@@ -148,9 +133,7 @@
     font-size: 14px;
     display: block;
     letter-spacing: 2px;
-    margin-bottom: 10em;
     font-family: inherit;
-    width: 45%;
-    margin-bottom: 12em;
+    width: 55%;
   }
 }
