@@ -28,7 +28,7 @@ input {
   padding: 12px 0;
   font-size: larger;
   border: none;
-  border-bottom: green solid 2px;
+  border-bottom: #b78456 solid 2px;
 }
 
 .UploadForm>form>button {
@@ -44,7 +44,7 @@ input {
 
 .UploadForm>form>button:hover {
   border: none;
-  background-color: green;
+  background-color: #b78456;
   box-shadow: 2px 2px 20px grey;
   color: white;
   transition: 0.5s;
@@ -54,7 +54,7 @@ input {
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
-  color: green;
+  color: #b78456;
   font-weight: 500;
   font-size: larger;
 }
@@ -73,7 +73,7 @@ label {
     padding: 12px 0;
     font-size: larger;
     border: none;
-    border-bottom: green solid 2px;
+    border-bottom: #b78456 solid 2px;
   }
 }
 
@@ -81,9 +81,10 @@ label {
 
   .UploadForm {
     position: absolute;
-    top: 20em;
+    top: 22em;
     right: 1em;
-    width: 40vw;
+
+    width: 35vw;
     padding: 0;
     margin: 0;
     background-color: none;
@@ -102,10 +103,10 @@ label {
 
 @media only screen and (min-width: 960px) {
   .UploadForm {
-    position: absolute;
-    top: 20em;
+    top: 22em;
     right: 5em;
-    width: 35vw;
+
+    width: 30vw;
     padding: 0;
     margin: 0;
     background-color: none;
@@ -124,10 +125,10 @@ label {
 
 @media only screen and (min-width: 1300px) {
   .UploadForm {
-    position: absolute;
-    top: 20em;
+    top: 22em;
     right: 6em;
-    width: 30vw;
+
+    width: 25vw;
     padding: 0;
     margin: 0;
     background-color: none;

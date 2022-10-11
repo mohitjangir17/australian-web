@@ -25,5 +25,4 @@ function Herotext() {
     </motion.div>
   );
 }
-
 export default Herotext;

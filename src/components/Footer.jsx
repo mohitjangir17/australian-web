@@ -1,15 +1,21 @@
 import "../styles/footer.css";
-import logo from "./resources/logo192.png";
-import facebooklogo from "../components/resources/facebook logo.png";
-import instalogo from "../components/resources/instagram.svg";
+import logo from "./resources/logo512.png";
 import arrow from "../components/resources/arrow.png";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faTwitter,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
     <div className="Footer">
       <div className="footer-columns">
-        <img className="footerLogo" src={logo} alt="" />
+        <Link to="/australian-web">
+          <img className="footerLogo" src={logo} alt="" />
+        </Link>
         <p>
           A small river named Duden flows by their place <br />
           and supplies it with the necessary regelialia.
@@ -17,10 +23,16 @@ function Footer() {
 
         <div className="footer-social-icons">
           <a href="https://instagram.com">
-            <img src={instalogo} alt="" />
+            <a href="https://facebook.com">
+              <FontAwesomeIcon
+                className="socialIconnFooter"
+                icon={faFacebook}
+              />
+            </a>
+            <FontAwesomeIcon className="socialIconnFooter" icon={faInstagram} />
           </a>
-          <a href="https://facebook.com">
-            <img src={facebooklogo} alt="" />
+          <a href="https://twitter.com">
+            <FontAwesomeIcon className="socialIconnFooter" icon={faTwitter} />
           </a>
         </div>
       </div>

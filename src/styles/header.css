@@ -1,35 +1,44 @@
 .Header1 {
   display: block;
-  background: url(../components/resources/open-book.jpg), rgba(0, 0, 0, 0.21);
+  background: url(../components/resources/mainBanner.jpg), rgba(0, 0, 0, 0.21);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
   background-blend-mode: darken;
   height: 100vh;
-  background-position: center;
+  background-position: 32% 46%;
   background-repeat: no-repeat;
   z-index: -2;
   position: fixed;
   min-height: 100%;
   width: 100vw;
-  /* top: 0; */
-  /* left: 0; */
 }
-.bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: url(../components/resources/open-book.jpg), rgba(0, 0, 0, 0.21);
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
+
+.Herotext {
+  height: max-content;
 }
+
 @media only screen and (min-width: 600px) {
+  .Header1 {
+    background-position: 32% 46%;
+  }
+
+  .Herotext {
+    height: 600px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
+  .Header1 {
+    background-position: 32% 46%;
+  }
+
+  .Herotext {
+    height: 600px;
+  }
 }
 
 @media only screen and (min-width: 960px) {
   .Header1 {
-    background-image: url(../components/resources/open-book.jpg);
     min-height: 100%;
     min-width: 768px;
     width: 100%;
@@ -37,17 +46,12 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-position: center;
-  }
-  .bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-
-    /* Preserve aspet ratio */
-    min-width: 100%;
-    min-height: 100%;
+    background-position: 27% 46%;
   }
 }
+
 @media only screen and (min-width: 1300px) {
+  .Header1 {
+    background-position: 40% 46%;
+  }
 }

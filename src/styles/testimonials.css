@@ -1,13 +1,13 @@
 .Testimonials {
   background-color: white;
-  padding: 4em 1em;
+  padding: 4em 0;
   text-align: center;
 }
 
 .spanTestimonials {
   font-weight: 700;
   font-size: x-large;
-  color: green;
+  color: #b78456;
   margin: 1em 0;
   display: block;
 }
@@ -19,16 +19,15 @@
 
 .testimonials_container {
   text-align: left;
-  padding: 0em;
 }
 
-.testimonials_list div:hover {
+.testimonials_list div:active {
   cursor: grab;
 }
 
 .testimonials_list {
   padding: 1em 0.2em 3em 0.2em;
-  margin: 1em 0em;
+  margin: 3em 1em;
   border-radius: 10px;
   background-color: rgb(246, 246, 246);
 }
@@ -39,7 +38,7 @@
 }
 
 .testimonials_list div span p {
-  color: green;
+  color: #b78456;
 }
 
 .reviewDescription {
@@ -51,16 +50,19 @@
     display: grid;
     grid-template-columns: auto auto;
     text-align: left;
-    padding: 0.5em;
   }
 
   .testimonials_list {
-    margin: 1em;
+    /* margin: .5em; */
     padding: 1em 0.2em 3em 0.2em;
   }
 }
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  .testimonials_container {
+    margin: .2em;
+  }
+}
 
 @media only screen and (min-width: 960px) {
   .testimonials_container {
@@ -71,7 +73,7 @@
   }
 
   .testimonials_list {
-    margin: 1em;
+    /* margin: 1em; */
     padding: 1em 0.2em 3em 0.2em;
   }
 }

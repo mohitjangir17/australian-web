@@ -1,12 +1,17 @@
-/* @import url('http://fonts.cdnfonts.com/css/segoe-ui-4'); */
+@import url('http://fonts.cdnfonts.com/css/sf-mono');
+
+
+
 .App {
     display: flex;
     flex-direction: column;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: SF Mono, Tahoma, Geneva, Verdana, sans-serif;
 }
+
 motion {
     margin: 0em;
 }
+
 .backgroundWhite {
-background-color: white;
+    background-color: white;
 }

@@ -27,7 +27,7 @@
 
 .mobile-Navbar p:hover {
   cursor: pointer;
-  color: green;
+  color: #b78456;
   transition: 0.7s;
   transform: scale(1.1);
 }
@@ -49,7 +49,7 @@
 
 .navlist>a:hover {
   transition: 0.7s;
-  color: green;
+  color: #b78456;
 }
 
 .Navbar>nav>a {
@@ -66,7 +66,8 @@
 
 .Navbar>nav>a:hover {
   transition: 0.7s;
-  color: green;
+  color: #b78456;
+  font-weight: 700;
 }
 
 @-moz-keyframes navSlider {
@@ -161,6 +162,10 @@
 
   .mobile-Navbar {
     display: none;
+  }
+
+  .Navbar>nav>a {
+    margin: 1em 2em;
   }
 }
 

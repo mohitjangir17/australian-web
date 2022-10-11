@@ -1,5 +1,4 @@
 .Blogs {
-  background-color: white;
   text-align: center;
   padding-top: 2em;
 }
@@ -34,7 +33,7 @@
 }
 
 .blogsList h3:hover {
-  color: green;
+  color: #b78456;
   transition: 0.4s;
 }
 

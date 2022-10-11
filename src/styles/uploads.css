@@ -24,13 +24,13 @@ input {
   padding: 12px 0;
   font-size: larger;
   border: none;
-  border-bottom: green solid 2px;
+  border-bottom: #b78456 solid 2px;
 }
 
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
-  color: green;
+  color: #b78456;
   font-weight: 500;
   font-size: larger;
 }
@@ -52,7 +52,7 @@ input:focus {
 
 .Upload>form>button:hover {
   border: none;
-  background-color: green;
+  background-color: #b78456;
   box-shadow: 2px 2px 20px grey;
   color: white;
   transition: 0.5s;

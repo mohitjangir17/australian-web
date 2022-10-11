@@ -1,8 +1,14 @@
 import "../styles/courses.css";
-import logo from "./resources/logo192.png";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import assignment_help from "./resources/assignment help.png";
+import dissertation_help from "./resources/dissertation help.png";
+import essay_help from "./resources/essay help.png";
+import exam_help from "./resources/exam help.png";
+import programming_help from "./resources/programming help.png";
+import thesis_help from "./resources/thesis help.png";
 import "../App.css";
+
 function Courses() {
   function FadeInWhenVisible({ children }) {
     return (
@@ -37,8 +43,8 @@ function Courses() {
             className="Link"
           >
             <div className="course-item">
-              <img width={80} src={logo} alt="course" />
-              <h4>Web Development</h4>
+              <img width={80} src={assignment_help} alt="course" />
+              <h4>Assignment Help</h4>
             </div>
           </Link>
         </FadeInWhenVisible>
@@ -50,8 +56,8 @@ function Courses() {
             className="Link"
           >
             <div className="course-item">
-              <img width={80} src={logo} alt="course" />
-              <h4>Web Development</h4>
+              <img width={80} src={dissertation_help} alt="course" />
+              <h4>Dissertation Help</h4>
             </div>
           </Link>
         </FadeInWhenVisible>
@@ -63,8 +69,8 @@ function Courses() {
             className="Link"
           >
             <div className="course-item">
-              <img width={80} src={logo} alt="course" />
-              <h4>Web Development</h4>
+              <img width={80} src={essay_help} alt="course" />
+              <h4>Essay Help</h4>
             </div>
           </Link>
         </FadeInWhenVisible>
@@ -76,8 +82,8 @@ function Courses() {
             className="Link"
           >
             <div className="course-item">
-              <img width={80} src={logo} alt="course" />
-              <h4>Web Development</h4>
+              <img width={80} src={exam_help} alt="course" />
+              <h4>Exam Help</h4>
             </div>
           </Link>
         </FadeInWhenVisible>
@@ -89,8 +95,21 @@ function Courses() {
             className="Link"
           >
             <div className="course-item">
-              <img width={80} src={logo} alt="course" />
-              <h4>Web Development</h4>
+              <img width={80} src={programming_help} alt="course" />
+              <h4>Programming Help</h4>
+            </div>
+          </Link>
+        </FadeInWhenVisible>
+        <FadeInWhenVisible>
+          {" "}
+          <Link
+            to={{ pathname: "https://swipeupassignments.com" }}
+            target="_blank"
+            className="Link"
+          >
+            <div className="course-item">
+              <img width={80} src={thesis_help} alt="course" />
+              <h4>Thesis Help</h4>
             </div>
           </Link>
         </FadeInWhenVisible>
