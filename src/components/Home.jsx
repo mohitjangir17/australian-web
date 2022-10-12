@@ -1,12 +1,11 @@
 import "../App.css";
-import "../styles/components.css";
 import Benifits from "./Benifits";
 import Figures from "./Figures";
 import Courses from "./Courses";
 import Testimonials from "./Testimonials";
 import Blogs from "./Blogs";
-import { motion } from "framer-motion";
 import UploadForm from "./UploadForm";
+import { motion } from "framer-motion";
 function FadeInWhenVisible({ children }) {
   return (
     <motion.div

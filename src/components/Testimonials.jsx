@@ -1,6 +1,7 @@
 import "../styles/testimonials.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { useState } from "react";
 
 const responsive = {
   superLargeDesktop: {
@@ -25,6 +26,37 @@ const responsive = {
 };
 
 function Testimonials() {
+  const [testimonialsData, setTestimonialsData] = useState([
+    {
+      id: 1,
+      reviewerName: "Roger ",
+      courseName: "Web Development",
+      reviewDescription:
+        "1 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    },
+    {
+      id: 2,
+      reviewerName: "Roger ",
+      courseName: "DBMS",
+      reviewDescription:
+        "2 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    },
+    {
+      id: 3,
+      reviewerName: "Roger ",
+      courseName: "JS",
+      reviewDescription:
+        "3 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    },
+    {
+      id: 4,
+      reviewerName: "Roger ",
+      courseName: "React",
+      reviewDescription:
+        "4 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    },
+  ]);
+
   return (
     <div className="Testimonials">
       <span className="spanTestimonials">Testimonials</span>
@@ -39,71 +71,20 @@ function Testimonials() {
           autoPlay={true}
           autoPlaySpeed={3000}
         >
-          <div className="testimonials_list">
-            <div>
-              {/* <img src={reactlogo} alt="person" /> */}
-              <span>
-                <h3>Roger</h3>
-                <p>Post</p>
-              </span>
+          {testimonialsData.map((testimonial) => (
+            <div key={testimonial.id} className="testimonials_list">
+              <div>
+                {/* <img src={reactlogo} alt="person" /> */}
+                <span>
+                  <h3> {testimonial.reviewerName}</h3>
+                  <p>{testimonial.courseName}</p>
+                </span>
+              </div>
+              <p className="reviewDescription">
+                {testimonial.reviewDescription}
+              </p>
             </div>
-            <p className="reviewDescription">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.{" "}
-            </p>
-          </div>
-          <div className="testimonials_list">
-            <div>
-              {/* <img src={reactlogo} alt="person" /> */}
-              <span>
-                <h3>Roger</h3>
-                <p>Post</p>
-              </span>
-            </div>
-            <p className="reviewDescription">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.{" "}
-            </p>
-          </div>
-          <div className="testimonials_list">
-            <div>
-              {/* <img src={reactlogo} alt="person" /> */}
-              <span>
-                <h3>Roger</h3>
-                <p>Post</p>
-              </span>
-            </div>
-            <p className="reviewDescription">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.{" "}
-            </p>
-          </div>
-          <div className="testimonials_list">
-            <div>
-              {/* <img src={reactlogo} alt="person" /> */}
-              <span>
-                <h3>Roger</h3>
-                <p>Post</p>
-              </span>
-            </div>
-            <p className="reviewDescription">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.{" "}
-            </p>
-          </div>
-          <div className="testimonials_list">
-            <div>
-              {/* <img src={reactlogo} alt="person" /> */}
-              <span>
-                <h3>Roger</h3>
-                <p>Post</p>
-              </span>
-            </div>
-            <p className="reviewDescription">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.{" "}
-            </p>
-          </div>
+          ))}
         </Carousel>
       </div>
     </div>
