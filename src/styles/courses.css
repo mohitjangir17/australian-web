@@ -18,7 +18,7 @@
 
 .Courses h4 {
   display: inline-block;
-  width: 150px;
+  width: 185px;
   height: 40px;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .course-item-container div {
-  margin: .5em;
+  margin: 0.5em;
 }
 
 .course-item {
@@ -67,7 +67,8 @@
   }
 }
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+}
 
 @media only screen and (min-width: 960px) {
   .course-item-container {

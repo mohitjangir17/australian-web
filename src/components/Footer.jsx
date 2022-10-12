@@ -23,13 +23,10 @@ function Footer() {
 
         <div className="footer-social-icons">
           <a href="https://instagram.com">
-            <a href="https://facebook.com">
-              <FontAwesomeIcon
-                className="socialIconnFooter"
-                icon={faFacebook}
-              />
-            </a>
             <FontAwesomeIcon className="socialIconnFooter" icon={faInstagram} />
+          </a>
+          <a href="https://facebook.com">
+            <FontAwesomeIcon className="socialIconnFooter" icon={faFacebook} />
           </a>
           <a href="https://twitter.com">
             <FontAwesomeIcon className="socialIconnFooter" icon={faTwitter} />

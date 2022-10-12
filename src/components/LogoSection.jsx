@@ -8,7 +8,7 @@ function LogoSection() {
   return (
     <div className="LogoSection">
       <div className="poster">
-        <a href="https://google.com">
+        <a href="/australian-web">
           <img src={logo} alt="logo" />
         </a>{" "}
         <div className="social-logos">

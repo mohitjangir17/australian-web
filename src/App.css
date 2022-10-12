@@ -1,17 +1,46 @@
-@import url('http://fonts.cdnfonts.com/css/sf-mono');
-
-
+@import url("http://fonts.cdnfonts.com/css/sf-mono");
 
 .App {
-    display: flex;
-    flex-direction: column;
-    font-family: SF Mono, Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-family: SF Mono, Tahoma, Geneva, Verdana, sans-serif;
 }
 
 motion {
-    margin: 0em;
+  margin: 0em;
 }
 
 .backgroundWhite {
-    background-color: white;
+  background-color: white;
+  padding-top: 1em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* tablets */
+@media only screen and (min-width: 600px) {
+  .backgroundWhite {
+    padding-top: 3em;
+  }
+}
+
+/* desktops */
+@media only screen and (min-width: 768px) {
+  .backgroundWhite {
+    padding-top: 2em;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .backgroundWhite {
+    padding: 5em;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .backgroundWhite {
+    padding: 8em 10em;
+  }
 }
