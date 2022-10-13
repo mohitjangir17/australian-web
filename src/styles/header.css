@@ -17,6 +17,38 @@
   height: max-content;
 }
 
+.HeaderOtherPages {
+  height: 400px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.pageIndicator {
+  margin-top: 3.5em;
+}
+
+.HeaderOtherPages h1 {
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+
+}
+
+.HeaderOtherPages h3 {
+  color: white;
+  text-align: center;
+
+
+}
+
 @media only screen and (min-width: 600px) {
   .Header1 {
     background-position: 32% 46%;
@@ -24,6 +56,20 @@
 
   .Herotext {
     height: 600px;
+  }
+
+  .pageIndicator {
+    margin-top: 5.5em;
+  }
+
+  .HeaderOtherPages {
+    height: 500px;
+  }
+
+  .HeaderOtherPages h1 {
+    color: white;
+    text-align: center;
+    font-size: xxx-large;
   }
 }
 
