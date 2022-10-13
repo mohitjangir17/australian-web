@@ -23,8 +23,7 @@ function Navbar() {
           <div className="navlist">
             <Link to="/australian-web">Home</Link>
             <Link to="/upload">Upload</Link>
-            <Link to="/about">About</Link>
-            <Link to="/allcourses">Courses</Link>
+            <Link to="/contact">Contact</Link>
             <Link to="/blogs">Blogs</Link>
           </div>
         </ToggleDisplay>
@@ -32,8 +31,7 @@ function Navbar() {
       <nav className="desktop-Navbar">
         <Link to="/australian-web">Home</Link>
         <Link to="/upload">Upload</Link>
-        <Link to="/about">About</Link>
-        <Link to="/allcourses">Courses</Link>
+        <Link to="/contact">Contact</Link>
         <Link to="/blogs">Blogs</Link>
       </nav>
     </div>
