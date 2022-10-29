@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route exact path="/australian-web">
+          <Route exact path="/">
             <Home />
           </Route>
           <Route exact path="/blogs">

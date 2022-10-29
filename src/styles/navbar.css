@@ -43,8 +43,9 @@
   flex-direction: column;
   text-decoration: none;
   color: white;
-  margin: 1em 2em;
+  margin: 1.5em 2em;
   transition: 0.7s;
+  width: max-content;
 }
 
 .navlist>a:hover {

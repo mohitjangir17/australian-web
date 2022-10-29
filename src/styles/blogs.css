@@ -42,6 +42,10 @@
   color: black;
 }
 
+.Link:hover {
+  text-decoration: none;
+}
+
 .blogsList p {
   margin: 1em;
   text-align: left;
@@ -52,6 +56,10 @@
   text-align: left;
   font-weight: 700;
   padding-bottom: 2em;
+}
+
+.AllBlogs>.blogsContainer {
+  margin: 4em 1em;
 }
 
 @media only screen and (min-width: 600px) {
@@ -75,6 +83,10 @@
     transition: 0.4s;
     width: auto;
   }
+
+  .AllBlogs>.blogsContainer {
+    margin: 4em 2em;
+  }
 }
 
 @media only screen and (min-width: 960px) {
@@ -84,6 +96,10 @@
     grid-template-columns: auto auto auto;
     margin: 1em;
   }
+
+  .AllBlogs>.blogsContainer {
+    margin: 8em 6em;
+  }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -91,5 +107,9 @@
     display: grid;
     grid-template-columns: auto auto auto;
     margin: 0em;
+  }
+
+  .AllBlogs>.blogsContainer {
+    margin: 8em 10em;
   }
 }
