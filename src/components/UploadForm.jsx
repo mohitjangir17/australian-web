@@ -1,12 +1,11 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import "../styles/uploadform.css";
-import { Link } from "react-router-dom";
 
-function routeToUpload(e) {
-  e.preventDefault();
-  console.log("clicked routeTo Upload");
-}
+// function routeToUpload(e) {
+//   e.preventDefault();
+//   console.log("clicked routeTo Upload");
+// }
 
 function UploadForm() {
   const [firstname, setFirstname] = useState("");

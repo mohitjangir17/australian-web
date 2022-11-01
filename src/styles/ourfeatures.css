@@ -17,7 +17,7 @@
 }
 
 .OurFeatures h2 {
-    font-size: xxx-large;
+    font-size: xx-large;
     margin: 0 0.5em;
     margin-bottom: 1em;
 }
@@ -25,6 +25,10 @@
 .OurFeatures p,
 h3 {
     text-align: left;
+}
+
+.OurFeatures h3 {
+    margin-top: 0em;
 }
 
 .FeatureList {
@@ -40,11 +44,16 @@ h3 {
 }
 
 .FeatureList>img {
-    height: 6em;
-    width: 6em;
+    height: 5rem;
+    width: 5rem;
 }
 
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    .OurFeatures h2 {
+        font-size: xxx-large;
+
+    }
+}
 
 @media only screen and (min-width: 768px) {
     .FeaturesContainer {

@@ -89,7 +89,7 @@
 
 @media only screen and (min-width: 960px) {
   .Footer {
-    padding: 2em;
+    padding: 2em 5em;
     display: grid;
     grid-template-columns: auto auto auto;
   }
@@ -101,7 +101,7 @@
 
 @media only screen and (min-width: 1300px) {
   .Footer {
-    padding: 2em 4em;
+    padding: 2em 10em;
     max-width: 100%;
     display: grid;
     grid-template-columns: auto auto auto auto;

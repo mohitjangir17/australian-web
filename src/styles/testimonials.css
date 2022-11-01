@@ -13,7 +13,7 @@
 }
 
 .Testimonials h2 {
-  font-size: xxx-large;
+  font-size: xx-large;
   margin: 0 0.5em;
 }
 
@@ -50,6 +50,11 @@
     display: grid;
     grid-template-columns: auto auto;
     text-align: left;
+  }
+
+  .Testimonials h2 {
+    font-size: xxx-large;
+    margin: 0 0.5em;
   }
 
   .testimonials_list {

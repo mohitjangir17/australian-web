@@ -8,6 +8,7 @@ import UploadForm from "./UploadForm";
 import { motion } from "framer-motion";
 import Header from "./Header";
 import OurFeatures from "./OurFeatures";
+import OurSupport from "./OurSupport";
 function FadeInWhenVisible({ children }) {
   return (
     <motion.div
@@ -42,6 +43,9 @@ function Home() {
         </FadeInWhenVisible>
         <FadeInWhenVisible>
           <Courses />
+        </FadeInWhenVisible>
+        <FadeInWhenVisible>
+          <OurSupport />
         </FadeInWhenVisible>
         <FadeInWhenVisible>
           <OurFeatures />

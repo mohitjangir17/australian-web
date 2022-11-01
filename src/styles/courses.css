@@ -13,7 +13,8 @@
 }
 
 .Courses h2 {
-  font-size: xxx-large;
+  font-size: xx-large;
+  /* font-size: xxx-large; */
 }
 
 .Courses h4 {
@@ -52,7 +53,13 @@
 }
 
 @media only screen and (min-width: 600px) {
+  .Courses h2 {
+    font-size: xxx-large;
+
+  }
+
   .course-item-container {
+
     display: grid;
     grid-template-columns: auto auto;
   }

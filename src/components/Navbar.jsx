@@ -15,7 +15,7 @@ function Navbar() {
         <p onClick={handleClick}>Menu</p>
         <ToggleDisplay show={show}>
           <div className="navlist">
-            <Link to="/">Home</Link>
+            <Link to="/australian-web">Home</Link>
             <Link to="/upload">Upload</Link>
             <Link to="/contact">Contact</Link>
             <Link to="/blogs">Blogs</Link>
@@ -23,7 +23,7 @@ function Navbar() {
         </ToggleDisplay>
       </nav>
       <nav className="desktop-Navbar">
-        <Link to="/">Home</Link>
+        <Link to="/australian-web">Home</Link>
         <Link to="/upload">Upload</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/blogs">Blogs</Link>

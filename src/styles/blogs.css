@@ -4,7 +4,7 @@
 }
 
 .Blogs h2 {
-  font-size: xxx-large;
+  font-size: xx-large;
 }
 
 .blogsList {
@@ -66,6 +66,10 @@
   .blogsContainer {
     display: grid;
     grid-template-columns: auto auto;
+  }
+
+  .Blogs h2 {
+    font-size: xxx-large;
   }
 }
 
