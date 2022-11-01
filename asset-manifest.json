@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/australian-web/static/css/main.e773c2fc.css",
-    "main.js": "/australian-web/static/js/main.1557fd0b.js",
+    "main.css": "/australian-web/static/css/main.5d5e234a.css",
+    "main.js": "/australian-web/static/js/main.d24303cc.js",
     "static/js/787.83253f8e.chunk.js": "/australian-web/static/js/787.83253f8e.chunk.js",
     "static/media/counter_banner.jpg": "/australian-web/static/media/counter_banner.a554980ce967d97d1d95.jpg",
     "static/media/programming help.png": "/australian-web/static/media/programming help.0fb57c1f0b5269512d56.png",
@@ -14,17 +14,18 @@
     "static/media/girl-vector.png": "/australian-web/static/media/girl-vector.e38d632cc054be5346b9.png",
     "static/media/mainBanner.jpg": "/australian-web/static/media/mainBanner.ef5c8c033be0e8c88bdd.jpg",
     "static/media/coding-g03bcc4bcb_1280.jpg": "/australian-web/static/media/coding-g03bcc4bcb_1280.d2ebe7118500aa87c0e6.jpg",
+    "static/media/feature_1.jpg": "/australian-web/static/media/feature_1.394efb8e8e6253958c17.jpg",
     "static/media/arrow.png": "/australian-web/static/media/arrow.b7b28f255b01123932ae.png",
     "static/media/revicons.eot": "/australian-web/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/australian-web/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/australian-web/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/australian-web/index.html",
-    "main.e773c2fc.css.map": "/australian-web/static/css/main.e773c2fc.css.map",
-    "main.1557fd0b.js.map": "/australian-web/static/js/main.1557fd0b.js.map",
+    "main.5d5e234a.css.map": "/australian-web/static/css/main.5d5e234a.css.map",
+    "main.d24303cc.js.map": "/australian-web/static/js/main.d24303cc.js.map",
     "787.83253f8e.chunk.js.map": "/australian-web/static/js/787.83253f8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e773c2fc.css",
-    "static/js/main.1557fd0b.js"
+    "static/css/main.5d5e234a.css",
+    "static/js/main.d24303cc.js"
   ]
 }
