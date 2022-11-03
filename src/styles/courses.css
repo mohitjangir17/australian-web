@@ -26,6 +26,7 @@
 .course-item-container {
   display: grid;
   grid-template-columns: auto;
+  /* column-gap: 3rem; */
 }
 
 .course-item-container div {
@@ -50,6 +51,14 @@
   transition: 0.7s;
   color: white;
   cursor: pointer;
+}
+
+section.course-item-container:focus {
+  background-color: #b78456;
+  transition: 0.7s;
+  color: white;
+  cursor: pointer;
+  outline: none;
 }
 
 @media only screen and (min-width: 600px) {

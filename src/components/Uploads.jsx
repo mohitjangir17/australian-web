@@ -4,8 +4,8 @@ import HeaderOtherPages from "./HeaderOtherPages";
 import uploadHeaderImage from "./resources/mainBanner.jpg";
 
 function Upload() {
-  const [firstname, setFirstname] = useState("");
-  const [lastname, setLastname] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [contact, setContact] = useState("");
@@ -14,13 +14,26 @@ function Upload() {
   const [words, setWords] = useState("");
   const [deadline, setDeadline] = useState("");
 
+  const formInitialValue = {
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    subject: "",
+    title: "",
+    description: "",
+    words: "",
+    deadline: "",
+    file: null,
+  };
+
   const storage = window.sessionStorage;
   useEffect(() => {
     if (storage.getItem("firstname")) {
-      setFirstname(storage.getItem("firstname"));
+      setFirstName(storage.getItem("firstname"));
     }
     if (storage.getItem("lastname")) {
-      setLastname(storage.getItem("lastname"));
+      setLastName(storage.getItem("lastname"));
     }
     if (storage.getItem("email")) {
       setEmail(storage.getItem("email"));
@@ -44,9 +57,9 @@ function Upload() {
               <input
                 type="text"
                 name="firstname"
-                value={firstname}
+                value={firstName}
                 placeholder="Your Firstname"
-                onChange={(e) => setFirstname(e.target.value)}
+                onChange={(e) => setFirstName(e.target.value)}
               />{" "}
               <br />
             </div>
@@ -55,9 +68,9 @@ function Upload() {
               <input
                 type="text"
                 name="lastname"
-                value={lastname}
+                value={lastName}
                 placeholder="Your Lastname"
-                onChange={(e) => setLastname(e.target.value)}
+                onChange={(e) => setLastName(e.target.value)}
               />{" "}
               <br />
             </div>

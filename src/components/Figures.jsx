@@ -1,7 +1,12 @@
 import "../styles/figures.css";
-import bookicon from "./resources/book-logo.png";
+import itemsDelivered from "./resources/delivered.png";
+import teamLogo from "./resources/teamwork.png";
+import customerLogo from "./resources/target.png";
+import ratingLogo from "./resources/rating.png";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 
 function FadeInWhenVisible({ children }) {
   return (
@@ -28,46 +33,53 @@ function Figures() {
   return (
     <div className="Figures">
       <FadeInWhenVisible>
+        {/* <FontAwesomeIcon icon={faCircleCheck} /> */}
         <div className="figuresData">
-          <img src={bookicon} alt="" />
+          <img src={itemsDelivered} alt="" />
           <div>
             <h1>
-              <CountUp end={100} useEasing duration={7} enableScrollSpy />
+              <CountUp
+                end={(192, 723)}
+                useEasing
+                duration={7}
+                enableScrollSpy
+              />
             </h1>
-            <p>Success Stories</p>
+            <p>DELIVERED ORDERS</p>
           </div>
         </div>
       </FadeInWhenVisible>
       <FadeInWhenVisible>
         <div className="figuresData">
-          <img src={bookicon} alt="" />
+          <img src={teamLogo} alt="" />
           <div>
             <h1>
-              <CountUp end={4750} useEasing duration={7} enableScrollSpy />
+              <CountUp end={1308} useEasing duration={7} enableScrollSpy />
             </h1>
-            <p>Success Stories</p>
+            <p>EXPERTS</p>
           </div>
         </div>
       </FadeInWhenVisible>
       <FadeInWhenVisible>
         <div className="figuresData">
-          <img src={bookicon} alt="" />
+          <img src={customerLogo} alt="" />
           <div>
             <h1>
-              <CountUp end={460} useEasing duration={7} enableScrollSpy />
+              <CountUp end={50221} useEasing duration={7} enableScrollSpy />
             </h1>
-            <p>Success Stories</p>
+            <p>CUSTOMERS</p>
           </div>
         </div>
       </FadeInWhenVisible>
       <FadeInWhenVisible>
         <div className="figuresData">
-          <img src={bookicon} alt="" />
+          <img src={ratingLogo} alt="" />
           <div>
             <h1>
-              <CountUp end={850} useEasing duration={7} enableScrollSpy />
+              <CountUp end={9} useEasing duration={7} enableScrollSpy />
+              /10
             </h1>
-            <p>Success Stories</p>
+            <p>CUSTOMER RATING</p>
           </div>
         </div>
       </FadeInWhenVisible>

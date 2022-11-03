@@ -53,6 +53,18 @@
   color: #b78456;
 }
 
+.navlist>a:focus {
+  transition: 0.7s;
+  color: #b78456;
+  outline: none;
+}
+
+.Navbar>nav>a:focus {
+  transition: 0.7s;
+  color: #b78456;
+  outline: none;
+}
+
 .Navbar>nav>a {
   display: flex;
   flex-direction: column;

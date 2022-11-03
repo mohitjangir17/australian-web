@@ -51,6 +51,15 @@ input {
   cursor: pointer;
 }
 
+.UploadForm>form>button:focus {
+  outline: none;
+  border: none;
+  background-color: #b78456;
+  box-shadow: 2px 2px 20px grey;
+  color: white;
+  transition: 0.5s;
+}
+
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;

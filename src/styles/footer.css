@@ -59,6 +59,14 @@
   scale: 1.03;
 }
 
+.exploreLinks>a:focus,
+.linksCol>a:focus,
+.questionsCol>a:focus {
+  outline: none;
+  color: white;
+  transition: 0.7s;
+  scale: 1.03;
+}
 
 .socialIconnFooter {
   transition: 0.4s;
