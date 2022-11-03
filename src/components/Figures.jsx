@@ -45,7 +45,9 @@ function Figures() {
                 enableScrollSpy
               />
             </h1>
-            <p>DELIVERED ORDERS</p>
+            <p>
+              DELIVERED <br /> ORDERS
+            </p>
           </div>
         </div>
       </FadeInWhenVisible>
@@ -79,7 +81,9 @@ function Figures() {
               <CountUp end={9} useEasing duration={7} enableScrollSpy />
               /10
             </h1>
-            <p>CUSTOMER RATING</p>
+            <p>
+              CUSTOMER <br /> RATING
+            </p>
           </div>
         </div>
       </FadeInWhenVisible>
