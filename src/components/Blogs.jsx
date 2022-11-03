@@ -44,7 +44,21 @@ function Blogs() {
       <span className="spanTestimonials">Blogs</span>
       <h2>Our Latest Blogs</h2>
       <div className="blogsContainer">
-        {/* <Link className="Link" to="/blogs">
+        {blogData.map((blog) => (
+          <Link key={blog.id} className="Link" to="/blogs/">
+            {" "}
+            <div className="blogsList">
+              <img src={blog.thumbnail} alt="blogImg" />
+              <h3>{blog.title}</h3>
+              <p>{blog.description}</p>
+              <div className="blogInfo">
+                <p>{blog.date}</p>
+              </div>
+            </div>
+          </Link>
+        ))}
+      </div>
+      {/* <Link className="Link" to="/blogs">
           {" "}
           <div className="blogsList">
             <img src={codingguy} alt="blogImg" />
@@ -100,22 +114,8 @@ function Blogs() {
             </div>
           </div>
         </Link> */}
-
-        {blogData.map((blog) => (
-          <Link key={blog.id} className="Link" to="/blogs/">
-            {" "}
-            <div className="blogsList">
-              <img src={blog.thumbnail} alt="blogImg" />
-              <h3>{blog.title}</h3>
-              <p>{blog.description}</p>
-              <div className="blogInfo">
-                <p>{blog.date}</p>
-              </div>
-            </div>
-          </Link>
-        ))}
-      </div>
     </div>
   );
 }
+
 export default Blogs;

@@ -13,18 +13,20 @@
 }
 
 .Courses h2 {
-  font-size: xxx-large;
+  font-size: xx-large;
+  /* font-size: xxx-large; */
 }
 
 .Courses h4 {
   display: inline-block;
-  width: 185px;
+  width: 235px;
   height: 40px;
 }
 
 .course-item-container {
   display: grid;
   grid-template-columns: auto;
+  /* column-gap: 3rem; */
 }
 
 .course-item-container div {
@@ -51,8 +53,22 @@
   cursor: pointer;
 }
 
+section.course-item-container:focus {
+  background-color: #b78456;
+  transition: 0.7s;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
 @media only screen and (min-width: 600px) {
+  .Courses h2 {
+    font-size: xxx-large;
+
+  }
+
   .course-item-container {
+
     display: grid;
     grid-template-columns: auto auto;
   }
@@ -67,8 +83,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
-}
+@media only screen and (min-width: 768px) {}
 
 @media only screen and (min-width: 960px) {
   .course-item-container {

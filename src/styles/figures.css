@@ -1,6 +1,6 @@
 .figuresData {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   margin: 1em;
 }
 
@@ -19,7 +19,9 @@
 }
 
 .figuresData img {
-  margin: 1em;
+  margin: 1.7em 1em 1em 1em;
+  width: 60px;
+  height: 60px;
 }
 
 .figuresData h1 {
@@ -49,8 +51,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
-}
+@media only screen and (min-width: 768px) {}
 
 @media only screen and (min-width: 960px) {
   .Figures {

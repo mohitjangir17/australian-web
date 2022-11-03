@@ -59,6 +59,14 @@
   scale: 1.03;
 }
 
+.exploreLinks>a:focus,
+.linksCol>a:focus,
+.questionsCol>a:focus {
+  outline: none;
+  color: white;
+  transition: 0.7s;
+  scale: 1.03;
+}
 
 .socialIconnFooter {
   transition: 0.4s;
@@ -89,7 +97,7 @@
 
 @media only screen and (min-width: 960px) {
   .Footer {
-    padding: 2em;
+    padding: 2em 5em;
     display: grid;
     grid-template-columns: auto auto auto;
   }
@@ -101,7 +109,7 @@
 
 @media only screen and (min-width: 1300px) {
   .Footer {
-    padding: 2em 4em;
+    padding: 2em 10em;
     max-width: 100%;
     display: grid;
     grid-template-columns: auto auto auto auto;

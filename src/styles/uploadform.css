@@ -51,6 +51,15 @@ input {
   cursor: pointer;
 }
 
+.UploadForm>form>button:focus {
+  outline: none;
+  border: none;
+  background-color: #b78456;
+  box-shadow: 2px 2px 20px grey;
+  color: white;
+  transition: 0.5s;
+}
+
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
@@ -126,7 +135,7 @@ label {
 @media only screen and (min-width: 1300px) {
   .UploadForm {
     top: 22em;
-    right: 6em;
+    right: 11em;
 
     width: 25vw;
     padding: 0;

@@ -4,12 +4,12 @@
 }
 
 .Blogs h2 {
-  font-size: xxx-large;
+  font-size: xx-large;
 }
 
 .blogsList {
   background-color: rgb(246, 246, 246);
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 1em;
   transition: 0.4s;
 }
@@ -23,7 +23,7 @@
 
 .blogsList img {
   width: 100%;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .blogsList h3 {
@@ -42,6 +42,10 @@
   color: black;
 }
 
+.Link:hover {
+  text-decoration: none;
+}
+
 .blogsList p {
   margin: 1em;
   text-align: left;
@@ -54,10 +58,18 @@
   padding-bottom: 2em;
 }
 
+.AllBlogs>.blogsContainer {
+  margin: 4em 1em;
+}
+
 @media only screen and (min-width: 600px) {
   .blogsContainer {
     display: grid;
     grid-template-columns: auto auto;
+  }
+
+  .Blogs h2 {
+    font-size: xxx-large;
   }
 }
 
@@ -70,10 +82,14 @@
 
   .blogsList {
     background-color: rgb(246, 246, 246);
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 1em;
     transition: 0.4s;
     width: auto;
+  }
+
+  .AllBlogs>.blogsContainer {
+    margin: 4em 2em;
   }
 }
 
@@ -84,6 +100,10 @@
     grid-template-columns: auto auto auto;
     margin: 1em;
   }
+
+  .AllBlogs>.blogsContainer {
+    margin: 8em 6em;
+  }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -91,5 +111,9 @@
     display: grid;
     grid-template-columns: auto auto auto;
     margin: 0em;
+  }
+
+  .AllBlogs>.blogsContainer {
+    margin: 8em 10em;
   }
 }

@@ -38,7 +38,7 @@ function Courses() {
         <FadeInWhenVisible>
           {" "}
           <Link
-            to={{ pathname: "https://swipeupassignments.com" }}
+            to={{ pathname: "https://swipeupassignments.com/assignment-help/" }}
             target="_blank"
             className="Link"
           >
@@ -51,7 +51,9 @@ function Courses() {
         <FadeInWhenVisible>
           {" "}
           <Link
-            to={{ pathname: "https://swipeupassignments.com" }}
+            to={{
+              pathname: "https://swipeupassignments.com/dissertation-help",
+            }}
             target="_blank"
             className="Link"
           >
@@ -64,7 +66,7 @@ function Courses() {
         <FadeInWhenVisible>
           {" "}
           <Link
-            to={{ pathname: "https://swipeupassignments.com" }}
+            to={{ pathname: "https://swipeupassignments.com/essay-help" }}
             target="_blank"
             className="Link"
           >
@@ -77,7 +79,7 @@ function Courses() {
         <FadeInWhenVisible>
           {" "}
           <Link
-            to={{ pathname: "https://swipeupassignments.com" }}
+            to={{ pathname: "https://swipeupassignments.com/exam-help" }}
             target="_blank"
             className="Link"
           >
@@ -90,7 +92,7 @@ function Courses() {
         <FadeInWhenVisible>
           {" "}
           <Link
-            to={{ pathname: "https://swipeupassignments.com" }}
+            to={{ pathname: "https://swipeupassignments.com/programming-help" }}
             target="_blank"
             className="Link"
           >
@@ -103,7 +105,9 @@ function Courses() {
         <FadeInWhenVisible>
           {" "}
           <Link
-            to={{ pathname: "https://swipeupassignments.com" }}
+            to={{
+              pathname: "https://swipeupassignments.com/thesis-paper-help",
+            }}
             target="_blank"
             className="Link"
           >

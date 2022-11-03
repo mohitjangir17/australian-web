@@ -2,12 +2,6 @@ import "../styles/navbar.css";
 import React, { useState } from "react";
 import ToggleDisplay from "react-toggle-display";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faTwitter,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
   const [show, setShow] = useState(false);

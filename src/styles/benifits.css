@@ -20,7 +20,7 @@
   display: block;
 }
 
-.benifits-content h1 {
+.benifits-content h2 {
   display: block;
   text-align: center;
 
@@ -51,7 +51,7 @@
 
   }
 
-  .benifits-content h1 {
+  .benifits-content h2 {
     display: block;
     text-align: centre;
     margin: 1em;
@@ -97,7 +97,7 @@
     text-align: left;
   }
 
-  .benifits-content h1 {
+  .benifits-content h2 {
 
     text-align: left;
     margin: .5em 0;

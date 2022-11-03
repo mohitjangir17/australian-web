@@ -43,13 +43,26 @@
   flex-direction: column;
   text-decoration: none;
   color: white;
-  margin: 1em 2em;
+  margin: 1.5em 2em;
   transition: 0.7s;
+  width: max-content;
 }
 
 .navlist>a:hover {
   transition: 0.7s;
   color: #b78456;
+}
+
+.navlist>a:focus {
+  transition: 0.7s;
+  color: #b78456;
+  outline: none;
+}
+
+.Navbar>nav>a:focus {
+  transition: 0.7s;
+  color: #b78456;
+  outline: none;
 }
 
 .Navbar>nav>a {

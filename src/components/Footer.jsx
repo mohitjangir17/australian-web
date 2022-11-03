@@ -8,7 +8,6 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-
 function Footer() {
   return (
     <div className="Footer">
