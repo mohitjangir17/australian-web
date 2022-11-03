@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/australian-web/static/css/main.ab1db223.css",
-    "main.js": "/australian-web/static/js/main.25046ffb.js",
+    "main.css": "/australian-web/static/css/main.8f678fcc.css",
+    "main.js": "/australian-web/static/js/main.5fb14f69.js",
     "static/js/787.83253f8e.chunk.js": "/australian-web/static/js/787.83253f8e.chunk.js",
     "static/media/counter_banner.jpg": "/australian-web/static/media/counter_banner.a554980ce967d97d1d95.jpg",
     "static/media/programming help.png": "/australian-web/static/media/programming help.0fb57c1f0b5269512d56.png",
@@ -16,16 +16,20 @@
     "static/media/coding-g03bcc4bcb_1280.jpg": "/australian-web/static/media/coding-g03bcc4bcb_1280.d2ebe7118500aa87c0e6.jpg",
     "static/media/feature_1.jpg": "/australian-web/static/media/feature_1.394efb8e8e6253958c17.jpg",
     "static/media/arrow.png": "/australian-web/static/media/arrow.b7b28f255b01123932ae.png",
+    "static/media/target.png": "/australian-web/static/media/target.bc9d198299f94200bbd5.png",
+    "static/media/rating.png": "/australian-web/static/media/rating.01d44dec98c7d90910b1.png",
+    "static/media/teamwork.png": "/australian-web/static/media/teamwork.f3f8e1dc3edb9053c361.png",
+    "static/media/delivered.png": "/australian-web/static/media/delivered.f35e3d692282a2c3bf41.png",
     "static/media/revicons.eot": "/australian-web/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/australian-web/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/australian-web/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/australian-web/index.html",
-    "main.ab1db223.css.map": "/australian-web/static/css/main.ab1db223.css.map",
-    "main.25046ffb.js.map": "/australian-web/static/js/main.25046ffb.js.map",
+    "main.8f678fcc.css.map": "/australian-web/static/css/main.8f678fcc.css.map",
+    "main.5fb14f69.js.map": "/australian-web/static/js/main.5fb14f69.js.map",
     "787.83253f8e.chunk.js.map": "/australian-web/static/js/787.83253f8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab1db223.css",
-    "static/js/main.25046ffb.js"
+    "static/css/main.8f678fcc.css",
+    "static/js/main.5fb14f69.js"
   ]
 }
