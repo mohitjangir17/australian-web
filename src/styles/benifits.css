@@ -1,0 +1,118 @@
+.Benifits {
+  display: flex;
+  z-index: 1;
+  background-color: white;
+  padding: 0em;
+}
+
+.benifits-img {
+  display: none;
+}
+
+.benifits-content {
+  padding: 0.2em;
+}
+
+.benifits-content span {
+  color: #b78456;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+}
+
+.benifits-content h2 {
+  display: block;
+  text-align: center;
+
+}
+
+.benifits-content>div {
+  display: flex;
+}
+
+.benifits-content img {
+  margin: 2em 0.5em;
+  width: 50px;
+  height: 50px;
+}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {
+  .Benifits {
+    padding: 4em 0em;
+  }
+
+  .benifits-content span {
+    color: #b78456;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+
+  }
+
+  .benifits-content h2 {
+    display: block;
+    text-align: centre;
+    margin: 1em;
+  }
+
+  .benifits-content>div {
+    margin: 2em;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .Benifits {
+    display: flex;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    padding: 0 2em;
+  }
+
+  .benifits-img {
+    background-image: url(../components/resources/girl-vector.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 90%;
+    height: auto;
+    z-index: 1;
+    background-position: center;
+  }
+
+  .Benifits {
+    display: flex;
+    z-index: 1;
+    background-color: white;
+    padding: 3em 0em;
+  }
+
+  .benifits-content {
+    padding: 3em;
+  }
+
+  .benifits-content span {
+    color: #b78456;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .benifits-content h2 {
+
+    text-align: left;
+    margin: .5em 0;
+  }
+
+  .benifits-content>div {
+    display: flex;
+    margin: 0;
+  }
+
+  .benifits-content img {
+    margin: 2em;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {}

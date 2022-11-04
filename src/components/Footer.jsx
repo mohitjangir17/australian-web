@@ -1,96 +1,105 @@
-import "./components.css";
-import logo from "./resources/logo192.png";
-import facebooklogo from "../components/resources/facebook logo.png";
-import instalogo from "../components/resources/instagram.svg";
+import "../styles/footer.css";
+import logo from "./resources/logo512.png";
 import arrow from "../components/resources/arrow.png";
-
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faTwitter,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 function Footer() {
   return (
     <div className="Footer">
       <div className="footer-columns">
-        <img className="footerLogo" src={logo} alt="" />
+        <Link to="/">
+          <img className="footerLogo" src={logo} alt="" />
+        </Link>
         <p>
-          A small river named Duden flows by their place and supplies it with
-          the necessary regelialia.
+          A small river named Duden flows by their place <br />
+          and supplies it with the necessary regelialia.
         </p>
 
         <div className="footer-social-icons">
           <a href="https://instagram.com">
-            <img src={instalogo} alt="" />
+            <FontAwesomeIcon className="socialIconnFooter" icon={faInstagram} />
           </a>
           <a href="https://facebook.com">
-            <img src={facebooklogo} alt="" />
+            <FontAwesomeIcon className="socialIconnFooter" icon={faFacebook} />
+          </a>
+          <a href="https://twitter.com">
+            <FontAwesomeIcon className="socialIconnFooter" icon={faTwitter} />
           </a>
         </div>
       </div>
       <div className="footer-columns">
         <h3>Explore</h3>
         <div className="exploreLinks">
-          <a href="#">
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             About Us
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Services
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Cources
-          </a>
-          <a href="">
+          </Link>
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Blogs
-          </a>
-          <a href="">
+          </Link>
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Contact Us
-          </a>
+          </Link>
         </div>
       </div>
       <div className="footer-columns">
         <h3>Our Links</h3>
         <div className="linksCol">
-          <a href="">
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Contact Us
-          </a>
-          <a href="">
+          </Link>
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Pricing
-          </a>
-          <a href="">
+          </Link>
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Terms & Conditions
-          </a>
-          <a href="">
+          </Link>
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Privacy
-          </a>
-          <a href="">
+          </Link>
+          <Link to="">
             <span>
               <img width={25} src={arrow} alt="" />
             </span>
             Feedbacks
-          </a>
+          </Link>
         </div>
       </div>
       <div className="footer-columns">

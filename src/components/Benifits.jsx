@@ -1,5 +1,5 @@
-import "./components.css";
-import bookicon from './resources/book-logo.png'
+import "../styles/benifits.css";
+import bookicon from "./resources/book-logo.png";
 
 function Benifits() {
   return (
@@ -10,7 +10,7 @@ function Benifits() {
       </div>
       <div className="benifits-content">
         <span>Expertise in every field</span>
-        <h1> Benifits of working with us</h1>
+        <h2> Benifits of working with us</h2>
         <div>
           <img src={bookicon} alt="Img" />
           <div>

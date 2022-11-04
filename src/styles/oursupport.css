@@ -1,0 +1,92 @@
+.OurSupport {
+    background-color: white;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.spanOurSupport {
+    font-weight: 700;
+    font-size: x-large;
+    color: #b78456;
+    margin: 1em 0;
+    display: block;
+}
+
+.OurSupport h2 {
+    font-size: xx-large;
+    margin: 0 0.5em;
+    margin-bottom: 1em;
+}
+
+.OurSupport p,
+h3 {
+    text-align: left;
+}
+
+.OurSupport h3 {
+    margin-top: 0em;
+}
+
+.OurSupport>article {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+article>section {
+    position: relative;
+    width: 100%;
+    margin: 1em;
+}
+
+.supportList {
+    background: url(../components/resources/feature_1.jpg ), #b7835678;
+    background-blend-mode: darken;
+    margin: 1em auto;
+    height: 200px;
+    width: 200px;
+    /* border: #b78456 4px solid; */
+    background-position: center;
+    background-size: 14em;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.supportList>span {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 600px) {
+    .OurSupport h2 {
+        font-size: xxx-large;
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    article>section {
+
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    article>section {
+
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    article>section {
+
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+}

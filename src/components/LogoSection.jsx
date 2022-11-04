@@ -1,20 +1,22 @@
-import "../components/components.css";
-import logo from "../components/resources/logo192.png";
-import facebooklogo from "../components/resources/facebook logo.png";
-import instalogo from "../components/resources/instagram.svg";
+import "../styles/logosection.css";
+import logo from "./resources/logo512.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+
 function LogoSection() {
   return (
     <div className="LogoSection">
       <div className="poster">
-        <a href="https://google.com">
+        <a href="/sua">
           <img src={logo} alt="logo" />
         </a>{" "}
         <div className="social-logos">
           <a href="https://facebook.com">
-            <img src={facebooklogo} alt="" />
+            <FontAwesomeIcon className="socialIconn" icon={faFacebook} />
           </a>
           <a href="https://facebook.com">
-            <img src={instalogo} alt="" />
+            <FontAwesomeIcon className="socialIconn" icon={faInstagram} />
           </a>
         </div>{" "}
       </div>

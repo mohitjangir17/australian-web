@@ -1,4 +1,4 @@
-import "../components/components.css";
+import "../styles/header.css";
 import Herotext from "./Herotext";
 import LogoSection from "./LogoSection";
 import Navbar from "./Navbar";

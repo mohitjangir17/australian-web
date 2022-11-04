@@ -1,27 +1,36 @@
-import "./App.css";
-import "./components/components.css"
-import Header from "./components/Header";
-import Benifits from "./components/Benifits";
-import Figures from "./components/Figures";
-import Courses from "./components/Courses";
 import Footer from "./components/Footer";
-// import SupportEngine from "./components/SupportEngine";
-// import Comm100 from "./components/Comm100/Comm100Fetch";
-import Testimonials from "./components/Testimonials";
-import Blogs from "./components/Blogs";
+import AllBlogs from "./components/AllBlogs";
+import Home from "./components/Home";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Upload from "./components/Uploads";
+import ContactUs from "./components/Contact";
+// import Comm100 from "./components/Comm100/Comm100Fetch"; 
+
 function App() {
   return (
-    <div className="App">
-      <Header />
-      {/* <Comm100 /> */}
-      <Benifits />
-      <Figures />
-      <Courses />
-      <Blogs />
-      <Testimonials />
-      <Footer />
-      {/* <SupportEngine /> */}
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route exact path="/sua">
+            <Home />
+          </Route>
+          <Route exact path="/blogs">
+
+            <AllBlogs />
+          </Route>
+          <Route exact path="/contact">
+
+            <ContactUs />
+          </Route>
+          <Route exact path="/upload">
+
+            <Upload />
+          </Route>
+        </Switch>
+        <Footer />
+        {/* <Comm100 /> */}
+      </div>
+    </Router>
   );
 }
 

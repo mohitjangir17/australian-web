@@ -1,0 +1,107 @@
+.Header1 {
+  display: block;
+  background: url(../components/resources/mainBanner.jpg), rgba(0, 0, 0, 0.21);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  background-blend-mode: darken;
+  height: 100vh;
+  background-position: 32% 46%;
+  background-repeat: no-repeat;
+  z-index: -2;
+  position: fixed;
+  min-height: 100%;
+  width: 100vw;
+}
+
+.Herotext {
+  height: max-content;
+}
+
+.HeaderOtherPages {
+  height: 400px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.pageIndicator {
+  margin-top: 3.5em;
+}
+
+.HeaderOtherPages h1 {
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+
+}
+
+.HeaderOtherPages h3 {
+  color: white;
+  text-align: center;
+
+
+}
+
+@media only screen and (min-width: 600px) {
+  .Header1 {
+    background-position: 32% 46%;
+  }
+
+  .Herotext {
+    height: 600px;
+  }
+
+  .pageIndicator {
+    margin-top: 5.5em;
+  }
+
+  .HeaderOtherPages {
+    height: 500px;
+  }
+
+  .HeaderOtherPages h1 {
+    color: white;
+    text-align: center;
+    font-size: xxx-large;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Header1 {
+    background-position: 32% 46%;
+  }
+
+  .Herotext {
+    height: 600px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .Header1 {
+    min-height: 100%;
+    min-width: 768px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-position: 27% 46%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .Header1 {
+    background-position: 40% 46%;
+  }
+
+  .Header {
+    padding: 0 5em;
+  }
+}
