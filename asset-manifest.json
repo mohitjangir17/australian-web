@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sua/static/css/main.3803f57d.css",
-    "main.js": "/sua/static/js/main.3f14454a.js",
+    "main.css": "/sua/static/css/main.65fba0e7.css",
+    "main.js": "/sua/static/js/main.395b86d5.js",
     "static/js/787.152d648b.chunk.js": "/sua/static/js/787.152d648b.chunk.js",
     "static/media/counter_banner.jpg": "/sua/static/media/counter_banner.a554980ce967d97d1d95.jpg",
     "static/media/programming help.png": "/sua/static/media/programming help.0fb57c1f0b5269512d56.png",
@@ -24,12 +24,12 @@
     "static/media/revicons.ttf": "/sua/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/sua/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/sua/index.html",
-    "main.3803f57d.css.map": "/sua/static/css/main.3803f57d.css.map",
-    "main.3f14454a.js.map": "/sua/static/js/main.3f14454a.js.map",
+    "main.65fba0e7.css.map": "/sua/static/css/main.65fba0e7.css.map",
+    "main.395b86d5.js.map": "/sua/static/js/main.395b86d5.js.map",
     "787.152d648b.chunk.js.map": "/sua/static/js/787.152d648b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3803f57d.css",
-    "static/js/main.3f14454a.js"
+    "static/css/main.65fba0e7.css",
+    "static/js/main.395b86d5.js"
   ]
 }
